@@ -8,22 +8,28 @@
     android:orientation="vertical"
     tools:context=".firstapp.MainActivity">
 
-<androidx.appcompat.widget.AppCompatButton
-    android:id="@+id/btnStart"
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:text="Pulsame"
-    android:background="@color/purple_200"
+    <androidx.appcompat.widget.AppCompatEditText
+        android:id="@+id/etName"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="32dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnStart"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
-    />
 
-    <Button
-        android:id="@+id/button2"
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnStart"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick='prueba'
-        android:text="Button"
-        tools:layout_editor_absoluteY="133dp" />
+        android:background="@color/purple_200"
+        android:text="Pulsame"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+
+        />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
 
