@@ -1,4 +1,4 @@
-package com.example.myapplication.exercises
+package com.example.proy_01_android.exercises
 
 fun main(){
     var name:String="Rodney"

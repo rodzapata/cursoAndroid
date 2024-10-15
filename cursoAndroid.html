@@ -13,11 +13,30 @@
   <h1>Curso de Android con Kotlin</h1>
   <h2>Indice Tematico</h2>
   <ul>
+    <li><a href="cursoAndroid.html#pendrive">Pendrive arreglado</a></li>
     <li><a href="cursoAndroid.html#referencia">Referencias</a></li>
     <li><a href="cursoAndroid.html#instalacion">Instalacion iniciales</a></li>
     <li><a href="cursoAndroid.html#variables">Variables en Kotlin</a></li>
     <li><a href="cursoAndroid.html#when">when en Kotlin</a></li>
   </ul>
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="pendrive">Pedrive Areglado</h2>
+  <article>
+    El pendrive que en la casa me lo reconocia como solo lectura se arreglo, <br>
+    utilizando <strong>diskpart</strong> desde la barra de comnado: <br>
+    pasos seguidos: <br>
+    <ol>
+      <li>Conecta el pendrive a tu portátil.</li>
+      <li>Presiona Windows + R, escribe cmd y presiona Enter para abrir la línea de comandos.</li>
+      <li>En la línea de comandos, escribe <strong>diskpart</strong> y presiona Enter.</li>
+      <li>Escribe <strong>list disk</strong> para ver una lista de los discos conectados.</li>
+      <li>Identifica tu pendrive en la lista (por el tamaño), luego escribe <strong>select disk X</strong>, donde X es el número del pendrive.
+      </li>
+      <li>Escribe <strong>attributes disk clear readonly</strong> y presiona Enter para eliminar el atributo de solo lectura.</li>
+      <li>Finalmente, escribe <strong>exit</strong> para salir de Diskpart.</li>
+    </ol>
+  </article>
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
