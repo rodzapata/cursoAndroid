@@ -14,10 +14,13 @@
   <h2>Indice Tematico</h2>
   <ul>
     <li><a href="cursoAndroid.html#pendrive">Pendrive arreglado</a></li>
+    <li><a href="cursoAndroid.html#notebooklm">https://notebooklm.google/</a></li>
     <li><a href="cursoAndroid.html#referencia">Referencias</a></li>
     <li><a href="cursoAndroid.html#instalacion">Instalacion iniciales</a></li>
     <li><a href="cursoAndroid.html#variables">Variables en Kotlin</a></li>
     <li><a href="cursoAndroid.html#when">when en Kotlin</a></li>
+    <li><a href="cursoAndroid.html#eventos">Eventos en Kotlin</a></li>
+    <li><a href="cursoAndroid.html#intent">Intent</a></li>
   </ul>
   <a href="cursoAndroid.html">⏫</a>
   <hr />
@@ -40,6 +43,15 @@
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
+  <h2 id="notebooklm">notebooklm Google</h2>
+  <article>
+    Esta herramientas permite a partir de un texto genera una conversacion en ingles con inteligencia artificial. <br>
+    <a href="https://notebooklm.google/" target="_blank">https://notebooklm.google/</a> <br>
+    en este video te explica como usar la aplicacion <a href="https://www.youtube.com/watch?v=JsLYkMsOrJY" target="_blank">explicacion </a> <br>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
   <h2 id="referencia">Referencias</h2>
   <article>
     Existen un curso de Android <a
@@ -47,11 +59,11 @@
       AristiDev</a> <br>
     Tambien hay otro curso en ingles <a href="https://www.youtube.com/watch?v=TEXaoSC_8lQ&t=23s"
       target="_blank">AmigosCode</a> <br>
-    hay un curso de Kotlin <a href="https://www.amigoscode.com/courses/kotlin">Curso certificado gratis</a> <br>
+    hay un curso de Kotlin <a href="https://www.amigoscode.com/courses/kotlin" target="_blank">Curso certificado gratis</a> <br>
     para activar el uso del zoom hay que escoger <strong>file - setting - Editor - General</strong> y luego activamos
     <strong>Change font size with Ctrol+ Mouse </strong> <br>
     repositorio de Github donde encontramos ejemplose <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank" rel="noopener noreferrer">Repositorio</a> <br>
-    Eventos en Kotlin <a href="https://www.youtube.com/watch?v=6v8iJDJdtMc">Eventos</a> <br>
+    Eventos en Kotlin <a href="https://www.youtube.com/watch?v=6v8iJDJdtMc" target="_blank">Eventos</a> <br>
     para formatear el codigo en Android estudio, se ecoge menu <strong>Code</strong> Reformat File <br>
     
 
@@ -110,6 +122,90 @@
 
   </article>
 
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="eventos">Eventos en Kotlin</h2>
+  <article>
+    crearemos un EditText y un Button, donde el boton lo enlacaremos al evento Click. <br>
+    <pre>
+      <code>
+        
+          val btnStart =findViewById&lt;AppCompatButton>(R.id.btnStart)
+          val etName =findViewById&lt;AppCompatEditText>(R.id.etName)
+  
+  
+          btnStart.setOnClickListener{
+              Toast.makeText(this, "¡Botón presionado! ${etName.text.toString()}", Toast.LENGTH_SHORT).show()
+  
+              Log.i("aristiDev","Boton pulsado con ${etName.text.toString()}")
+          }
+  
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="intent">Intent en Kotlin</h2>
+  <article>
+    para llamar una Activity desde otra activity y pasarle un valor como parametro hay que usar <strong>Intent</strong> <br>
+    creamos una activity llamada ResultActivity y un <strong>TextView</strong> que reciba un valor con el nombre <strong>tvResult</strong> <br>
+
+    <pre>
+      <code>
+        
+        &lt;TextView
+          android:id="@+id/tvResult"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent"
+          android:textColor="@color/teal_200"
+          android:text="prueba de texto"
+          android:textSize="35sp"
+          app:layout_constraintBottom_toBottomOf="parent"
+          app:layout_constraintEnd_toEndOf="parent"
+          app:layout_constraintStart_toStartOf="parent"
+          app:layout_constraintTop_toTopOf="parent"
+        />
+  
+      </code>
+    </pre>
+  y el codigo en ResultActivity seria: <br>
+  <pre>
+    <code>
+      setContentView(R.layout.activity_result)
+      val tvResult=findViewById<TextView>(R.id.tvResult)
+      val name: String =intent.extras?.getString("EXTRA_NAME").orEmpty()
+      tvResult.text="hola ${name}"
+
+    </code>
+  </pre>
+  y el codigo de la Activiy principal que llame a la secundaria : <br>
+  <pre>
+    <code>
+      setContentView(R.layout.activity_first_app)
+
+      val btnStart =findViewById<AppCompatButton>(R.id.btnStart)
+      val etName =findViewById<AppCompatEditText>(R.id.etName)
+
+
+      btnStart.setOnClickListener{
+          val name=etName.text.toString()
+          if (name.isNotEmpty()){
+
+              val intent = Intent(this,ResultActivity::class.java)
+              intent.putExtra("EXTRA_NAME", name)
+              startActivity(intent)
+
+              //Toast.makeText(this, "¡Botón presionado!", Toast.LENGTH_SHORT).show()
+              Toast.makeText(this, "¡Botón presionado! ${etName.text.toString()}", Toast.LENGTH_SHORT).show()
+              Log.i("aristiDev","Boton pulsado con ${etName.text.toString()}")
+          }
+      }
+
+    </code>
+  </pre>
+  </article>
 
 </body>
 

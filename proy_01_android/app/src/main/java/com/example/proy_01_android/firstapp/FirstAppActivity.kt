@@ -1,7 +1,9 @@
 package com.example.proy_01_android.firstapp
 
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
+import android.widget.TextView
 import android.widget.Toast
 import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
@@ -22,10 +24,17 @@ class FirstAppActivity : AppCompatActivity() {
 
 
         btnStart.setOnClickListener{
-            //Toast.makeText(this, "¡Botón presionado!", Toast.LENGTH_SHORT).show()
-            Toast.makeText(this, "¡Botón presionado! ${etName.text.toString()}", Toast.LENGTH_SHORT).show()
+            val name=etName.text.toString()
+            if (name.isNotEmpty()){
 
-            Log.i("aristiDev","Boton pulsado con ${etName.text.toString()}")
+                val intent = Intent(this,ResultActivity::class.java)
+                intent.putExtra("EXTRA_NAME", name)
+                startActivity(intent)
+
+                //Toast.makeText(this, "¡Botón presionado!", Toast.LENGTH_SHORT).show()
+                Toast.makeText(this, "¡Botón presionado! ${etName.text.toString()}", Toast.LENGTH_SHORT).show()
+                Log.i("aristiDev","Boton pulsado con ${etName.text.toString()}")
+            }
         }
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main)) { v, insets ->
