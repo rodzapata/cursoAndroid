@@ -65,7 +65,11 @@
     repositorio de Github donde encontramos ejemplose <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank" rel="noopener noreferrer">Repositorio</a> <br>
     Eventos en Kotlin <a href="https://www.youtube.com/watch?v=6v8iJDJdtMc" target="_blank">Eventos</a> <br>
     para formatear el codigo en Android estudio, se ecoge menu <strong>Code</strong> Reformat File <br>
+    link github: <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank" rel="noopener noreferrer">codigo del curso de ejemplo </a> <br>
+    <strong>Nota</strong><br>
+    si presioname Crl + Alt + L , Android Visual Studio nos formatea el codigo <br>
     
+
 
 
   </article>
@@ -107,12 +111,97 @@
         }
       </code>
   </pre>
+  el archivo completo quedó así:
+  <pre>
+    <code>
+      package com.example.androidmaster
+      
+      fun createOrden(cliente:String, equipo:String):String{
+          return "cliente: $cliente y  equipo= $equipo";
+      }
+      
+      
+      fun main(){
+          val pi:Double =13.1416 ;
+          //muestra error pi=3.14  ;
+      
+          var name:String ="rodney";
+          name="cecilia";
+          var age:Int = 51 ;
+          var salary:Long = 2540000
+          var interes:Float = 25.23f ;
+          var numero:Double = 30.5647978
+          var isActive:Boolean = true ;
+          var telefono:String? =null;
+      
+          //operador Elvis
+          val numeroSeguro = telefono ?: "sin numero";
+          println("usuario es $name edad $age interes $interes salary $salary  numero $numero activo $isActive numero seguro $numeroSeguro" );
+      
+          val resultado:String = createOrden("rodney","Computador PC") ;
+          println(resultado);
+      
+      }
+
+
+    </code>
+  </pre>
 
     <strong>Nota:</strong> <br>
     para que se ejectute desde la terminal hay que ejecutarlo dentro del codigo en el simbolo del triangulo.
 
 
   </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="clase">clases</h2>
+  <article>
+    En Android casi todo el código gira alrededor de modelos de datos. <br>
+    Esto es muy parecido a lo que ya haces en backend con DTOs o entidades en Spring Boot, .NET o NestJS. <br>
+    <pre>
+      <code>
+        package com.example.androidmaster
+        
+        class Cliente(
+            var name:String ="",
+            var lastName:String =""
+        )
+        
+        fun main(){
+            val cliente=Cliente(
+                name="rondey",
+                lastName = "zapata"
+            )
+            println(cliente.name);
+        
+        }
+      </code>
+    </pre>
+    es mas comun usar modelos de datos <br>
+    <pre>
+      <code>
+
+        package com.example.androidmaster
+        
+        data class Cliente2(
+            val name:String ="",
+            val lastName:String =""
+        )
+        
+        fun main(){
+            val cliente = Cliente2(
+                name = "rodney",
+                lastName = "zapata"
+            )
+            println(cliente);
+        }
+
+      </code>
+    </pre>
+
+  </article>
+
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
