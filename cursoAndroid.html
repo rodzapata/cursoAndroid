@@ -19,6 +19,12 @@
     <li><a href="cursoAndroid.html#instalacion">Instalacion iniciales</a></li>
     <li><a href="cursoAndroid.html#variables">Variables en Kotlin</a></li>
     <li><a href="cursoAndroid.html#when">when en Kotlin</a></li>
+    <li><a href="cursoAndroid.html#data-class">data class</a></li>
+    <li><a href="cursoAndroid.html#colecciones">colecciones</a></li>
+    <li><a href="cursoAndroid.html#activity">activity</a></li>
+
+    <li><a href="cursoAndroid.html#estructura">estructura</a></li>
+
     <li><a href="cursoAndroid.html#eventos">Eventos en Kotlin</a></li>
     <li><a href="cursoAndroid.html#intent">Intent</a></li>
   </ul>
@@ -67,10 +73,13 @@
     para formatear el codigo en Android estudio, se ecoge menu <strong>Code</strong> Reformat File <br>
     link github: <a href="https://github.com/ArisGuimera/Android-Expert" target="_blank" rel="noopener noreferrer">codigo del curso de ejemplo </a> <br>
     <strong>Nota</strong><br>
+    curso completo de android <a href="https://www.youtube.com/watch?v=07O2Xtr9M-s&list=PLwRXwAGGsPEC2_uhfy9ufmO75pIE9jMAr" 
+    target="_blank" rel="noopener noreferrer">Curso Android por Gabi Moreno</a><br>
     si presioname Crl + Alt + L , Android Visual Studio nos formatea el codigo <br>
+    curso de JetPack Compose <a href="https://www.youtube.com/watch?v=0UjtLmAO1SA&list=PL8ie04dqq7_ORKWIwiaSTcyBKtasZtNUD" target="_blank" rel="noopener noreferrer">Jetpack por AristiDev</a><br>
+    pagina oficial de documentacion de JetPack Compose <a href="https://developer.android.com/compose" target="_blank" rel="noopener noreferrer">Documentacion oficial</a><br>
     
-
-
+    
 
   </article>
 
@@ -207,9 +216,252 @@
   <hr />
   <h2 id="when">When en Kotlin</h2>
   <article>
+    codigo de ejemplo whens.kt <br>
+    <pre>
+      <code>
+        package com.example.androidmaster
+        
+        fun main(){
+            days()
+            notas()
+        }
+        
+        fun notas() {
+            val nota=80
+            val resultado=when(nota){
+                in 90..100 -> "excelente"
+                in 80..89 -> "bueno"
+                in 70..79 -> "aceptable"
+                in 60 ..69-> "regular"
+                else -> "reprobado"
+            }
+            println(resultado);
+        }
+        
+        fun days(){
+            val day=10
+            when (day){
+                1 -> println("lunes")
+                2 -> println("martes")
+                3 -> println("miercoles")
+                4 -> println("jueves")
+                5 -> println("viernes")
+                6, 7 -> println("fin de semana")
+                else -> println("dia errado")
+            }
+        }
+
+       
+      </code>
+    </pre>
+
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="data-class">data class</h2>
+  <article>
+    los data-class son como los DTO que usamos en spring boot, mostramos un ejemplo con clases y data class <br>
+    <pre>
+      <code>
+        package com.example.androidmaster
+        
+        data class Usuario(
+            val id: Int,
+            val name: String,
+            val lastName: String
+        )  
+        
+        class UsuarioService {
+            fun crearUsuario(usuario: Usuario) {
+                println("creando usuario ${usuario.name}")
+            }
+        }
+        
+        fun main(){
+            val usuario= Usuario(1,"rodney","zapata")
+        
+            val service =UsuarioService()
+        
+            service.crearUsuario(usuario)
+        }
+        
+      </code>
+    </pre>
+    <strong>Nota:</strong><br>
+    las clases Usuario y UsuarioService lo creamos archivos separados <br>
+
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="colecciones">colecciones</h2>
+  <article>
+    <pre>
+      <code>
+        En Kotlin, las colecciones se utilizan para almacenar grupos de datos. Las más usadas son:
+        
+        List → lista ordenada
+        
+        Set → conjunto sin elementos repetidos
+        
+        Map → pares clave-valor
+      </code>
+    </pre>
+    <strong>1. Listas</strong> <br>
+    <strong>listas inmutables</strong> <br>
+    <pre>
+      <code>
+        fun listasInmutables() {
+          val tecnicos = listOf("rodney", "samuel", "cecilia", "sara")
+      
+          println("==== ciclo for ===")
+          for (tecnico in tecnicos) {
+              println(tecnico)
+          }
+      
+          println("==== ciclo for each ====")
+          tecnicos.forEach { e -> println(e) }
+      
+          println("==== mostrar solo los tecnicos que comienzan con s ====")
+          val resultado = tecnicos.filter { it.startsWith('s') }
+          println(resultado)
+      
+        }
+        
+        
+      </code>
+    </pre>
+    <strong>listas mutables</strong> <br>
+    <pre>
+      <code>
+        val equipos = mutableListOf("aire LG", "Aire Samsung")
+        equipos.add("aire olimpo")
+        println(equipos)
+        
+      </code>
+    </pre>
+
+    <strong>2. Set</strong> <br>
+    <pre>
+      <code>
+        
+        val ciudades = setOf("Bogotá", "Medellín", "Cali", "Bogotá")
+        println(ciudades)        
+      </code>
+    </pre>
+    
+    <strong>3. Map</strong> <br>
+    <pre>
+      <code>
+        fun mapas() {
+            val clientes = mapOf(
+                1 to "empresa A",
+                2 to "empresa B",
+                3 to "empresa C"
+            )
+            println(clientes[1])
+        }
+        
+      </code>
+    </pre>
+    <strong>Ejercicio 1 </strong><br>
+    en una lista inmutable con valores repetidos quitar los duplicados <br>
+    <pre>
+      <code>
+        fun quitarDuplicados() {
+            val ciudades = listOf("Barranquilla", "Bogota", "Cartagena", "Bogota")
+            println(ciudades)
+            val ciudadesUnicas = ciudades.toSet()
+            println(ciudadesUnicas)
+        }
+
+      </code>
+    </pre>
+
+    <strong>Ejercicio 2 </strong><br>
+    buscar las ciudades que comiencen con B <br>
+    <pre>
+      <code>
+        fun comenzarConLetraB() {
+            val ciudades = listOf("Barranquilla", "Bogota", "Cartagena", "Bucaramanga")
+            println(ciudades)
+            val ciudadesB = ciudades.filter { it.startsWith("B") }
+            println(ciudadesB)
+        }
+        
+      </code>
+    </pre>
+
+    <strong>Ejercicio 3 </strong><br>
+    se debe recorrer un ciclo pero cuando encuentre una codicion debe salirse del ciclo <br>
+    <pre>
+      <code>
+        fun cicloBreak() {
+            val clientes = listOf("rodney", "samuel", "cecilia", "juan")
+            for (cliente in clientes) {
+                if (cliente == "cecilia") break
+                println(cliente)
+            }
+        }
+        
+      </code>
+    </pre>
+    <strong>Ejercicio 4 </strong><br>
+    un array de ciudades que tiene valores duplicados, deben unificarlos y convertidos a mayusculas y que muestre los que <br>
+    comienzen con la letra B y quiero que queden ordenados. <br>
+    <pre>
+      <code>
+        fun unirCiudadesMayusculas() {
+            val ciudades = listOf("Bucaramanga", "Bogota", "Cartagena", "Barranquilla", "bogota")
+            println(ciudades)
+        
+            val resultado = ciudades
+                .map { it.uppercase() }
+                .filter { it.startsWith("B") }
+                .toSet()
+                .sorted()
+        
+            println(resultado)
+        }
+        
+      </code>
+    </pre>
+
+    <strong>Ejercicio 5 </strong><br>
+    tengo una lista de valores y quiero crear a partir de este crear otro con el valor+Iva del 19% <br>
+    <pre>
+      <code>
+        fun valorConIva() {
+          val precios = listOf(1000, 2000, 3000)
+          val preciosIva = precios.map { precio -> precio * 1.19 }
+          println(precios)
+          println(preciosIva)
+        }
+        
+      </code>  
+    </pre>  
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="activity">activity</h2>
+  <article>
+
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="estructura">estructura</h2>
+  <article>
 
 
   </article>
+
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
