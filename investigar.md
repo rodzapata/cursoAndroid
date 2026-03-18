@@ -1085,3 +1085,664 @@ Tal como lo hacen apps tipo:
 
 Y además te mostraré **la UI completa en Android moderna (2026)**.
 
+Perfecto, esto que quieres hacer es un **caso clásico de arquitectura offline-first**, muy usado en apps profesionales (logística, mantenimiento, field service, etc.). Te lo explico como lo haría un Android senior en 2026, con buenas prácticas reales.
+
+---
+
+# 🧠 Enfoque correcto: **Offline-First Architecture**
+
+La idea **NO es “guardar datos cuando no hay internet”**, sino:
+
+> 👉 La app SIEMPRE trabaja contra una base de datos local
+> 👉 Internet solo se usa para sincronizar
+
+---
+
+# 🏗️ Arquitectura recomendada (2026)
+
+Usa esta estructura:
+
+```
+UI (Jetpack Compose / XML)
+   ↓
+ViewModel
+   ↓
+Use Cases (opcional pero recomendado)
+   ↓
+Repository  ← 🔥 CLAVE
+   ↓
+Local DB (Room) + Remote API (NestJS)
+```
+
+---
+
+# 📦 Tecnologías recomendadas
+
+* **Room** → base de datos local
+* **Retrofit / Ktor Client** → consumir API NestJS
+* **WorkManager** → sincronización en background
+* **Kotlin Coroutines + Flow** → asincronía
+* **Hilt** → inyección de dependencias
+
+---
+
+# 💡 Estrategia clave: **Single Source of Truth**
+
+👉 La fuente de verdad SIEMPRE es la base local (Room)
+
+---
+
+# 🧩 1. Modelo con estado de sincronización
+
+Tu entidad debe tener control de sync:
+
+```kotlin
+@Entity(tableName = "ordenes")
+data class OrdenEntity(
+    @PrimaryKey(autoGenerate = true)
+    val idLocal: Int = 0,
+    val idRemote: Int? = null,
+
+    val cliente: String,
+    val descripcion: String,
+
+    val estadoSync: String // PENDING, SYNCED, ERROR
+)
+```
+
+---
+
+# 🧠 Estados recomendados
+
+* `PENDING` → creado offline
+* `SYNCED` → ya enviado al backend
+* `ERROR` → falló sincronización
+
+---
+
+# 🧩 2. DAO (Room)
+
+```kotlin
+@Dao
+interface OrdenDao {
+
+    @Insert
+    suspend fun insert(orden: OrdenEntity)
+
+    @Query("SELECT * FROM ordenes")
+    fun getAll(): Flow<List<OrdenEntity>>
+
+    @Query("SELECT * FROM ordenes WHERE estadoSync = 'PENDING'")
+    suspend fun getPendientes(): List<OrdenEntity>
+
+    @Update
+    suspend fun update(orden: OrdenEntity)
+}
+```
+
+---
+
+# 🌐 3. API (NestJS)
+
+Tu backend en NestJS debe tener endpoints tipo:
+
+```
+POST /ordenes
+GET /ordenes
+PUT /ordenes/:id
+```
+
+---
+
+# 🔥 4. Repository (LO MÁS IMPORTANTE)
+
+Aquí ocurre la magia:
+
+```kotlin
+class OrdenRepository(
+    private val dao: OrdenDao,
+    private val api: OrdenApi
+) {
+
+    fun getOrdenes() = dao.getAll()
+
+    suspend fun crearOrden(orden: OrdenEntity) {
+        dao.insert(
+            orden.copy(estadoSync = "PENDING")
+        )
+    }
+
+    suspend fun syncPendientes() {
+        val pendientes = dao.getPendientes()
+
+        for (orden in pendientes) {
+            try {
+                val response = api.createOrden(orden)
+
+                dao.update(
+                    orden.copy(
+                        estadoSync = "SYNCED",
+                        idRemote = response.id
+                    )
+                )
+
+            } catch (e: Exception) {
+                dao.update(
+                    orden.copy(estadoSync = "ERROR")
+                )
+            }
+        }
+    }
+}
+```
+
+---
+
+# ⚙️ 5. Sincronización automática (WorkManager)
+
+👉 Esto es clave para producción
+
+```kotlin
+class SyncWorker(
+    context: Context,
+    workerParams: WorkerParameters,
+    private val repository: OrdenRepository
+) : CoroutineWorker(context, workerParams) {
+
+    override suspend fun doWork(): Result {
+        return try {
+            repository.syncPendientes()
+            Result.success()
+        } catch (e: Exception) {
+            Result.retry()
+        }
+    }
+}
+```
+
+---
+
+# 📡 6. Ejecutar sync cuando haya internet
+
+```kotlin
+val request = OneTimeWorkRequestBuilder<SyncWorker>()
+    .setConstraints(
+        Constraints.Builder()
+            .setRequiredNetworkType(NetworkType.CONNECTED)
+            .build()
+    )
+    .build()
+
+WorkManager.getInstance(context).enqueue(request)
+```
+
+---
+
+# 🔄 7. Estrategia de sincronización (PRO LEVEL)
+
+Debes manejar 3 flujos:
+
+### 🔹 A. Escritura (Local → Server)
+
+* Guardas local
+* Luego sincronizas
+
+### 🔹 B. Lectura (Server → Local)
+
+* Descargas datos del backend
+* Actualizas Room
+
+### 🔹 C. Conflictos (MUY IMPORTANTE)
+
+Ejemplo:
+
+* Usuario modifica offline
+* Otro usuario modificó en servidor
+
+👉 Estrategias:
+
+* Last Write Wins (simple)
+* Versionado (recomendado)
+* Merge manual (pro)
+
+---
+
+# 🧠 8. Detección de conexión (opcional)
+
+Puedes usar:
+
+```kotlin
+ConnectivityManager
+```
+
+Pero **mejor práctica 2026**:
+
+👉 Deja que WorkManager maneje esto
+
+---
+
+# 📱 9. UI reactiva (Flow)
+
+```kotlin
+viewModelScope.launch {
+    repository.getOrdenes().collect { ordenes ->
+        // UI se actualiza automáticamente
+    }
+}
+```
+
+---
+
+# 🚀 10. Mejores prácticas PRO
+
+✔ Nunca dependas directamente del API en la UI
+✔ Siempre escribe primero en local
+✔ Maneja estados de sync
+✔ Usa WorkManager (NO hilos manuales)
+✔ Diseña tu backend (NestJS) para soportar sync
+✔ Maneja errores y reintentos
+
+---
+
+# 🧱 Bonus: Backend NestJS preparado
+
+En NestJS debes:
+
+* Aceptar registros sin conexión previa
+* Permitir idempotencia (evitar duplicados)
+* Manejar timestamps (`updatedAt`)
+
+---
+
+# 🎯 Resumen claro
+
+👉 Tu app:
+
+1. Guarda TODO en Room
+2. Marca como `PENDING`
+3. WorkManager sincroniza cuando hay internet
+4. Actualiza estado a `SYNCED`
+5. UI siempre lee desde local
+
+---
+
+# 💬 Si quieres llevar esto a nivel real
+
+Puedo ayudarte a armarte un proyecto completo con:
+
+* Android (Jetpack + Room + Hilt + WorkManager)
+* Backend en NestJS
+* Sincronización real paso a paso
+
+Solo dime:
+
+👉 *“quiero el proyecto completo offline-first”*
+
+Perfecto 🔥 vamos a construir esto como un **proyecto real completo offline-first** (Android + NestJS), paso a paso y con arquitectura profesional.
+
+Voy a guiarte como si fueras a usar esto en producción.
+
+---
+
+# 🧱 1. Arquitectura general
+
+## 📱 Android
+
+```
+presentation/
+   └── viewmodel/
+
+domain/
+   └── usecase/
+
+data/
+   ├── local (Room)
+   ├── remote (API)
+   └── repository/
+```
+
+## 🌐 Backend (NestJS)
+
+```
+src/
+ ├── ordenes/
+ │   ├── controller
+ │   ├── service
+ │   ├── entity
+ │   └── dto
+```
+
+---
+
+# 🧩 2. Backend en NestJS (preparado para offline)
+
+## 📌 Entidad (IMPORTANTE: timestamps)
+
+```ts
+// orden.entity.ts
+@Entity('ordenes')
+export class Orden {
+  @PrimaryGeneratedColumn()
+  id: number;
+
+  @Column()
+  cliente: string;
+
+  @Column()
+  descripcion: string;
+
+  @Column({ default: true })
+  activo: boolean;
+
+  @CreateDateColumn()
+  createdAt: Date;
+
+  @UpdateDateColumn()
+  updatedAt: Date;
+}
+```
+
+---
+
+## 📌 DTO
+
+```ts
+export class CreateOrdenDto {
+  cliente: string;
+  descripcion: string;
+}
+```
+
+---
+
+## 📌 Controller
+
+```ts
+@Post()
+create(@Body() dto: CreateOrdenDto) {
+  return this.service.create(dto);
+}
+
+@Get()
+findAll() {
+  return this.service.findAll();
+}
+```
+
+---
+
+## 🔥 Mejores prácticas backend
+
+✔ Usa `updatedAt` para sync
+✔ Evita duplicados (puedes usar UUID opcional)
+✔ API idempotente
+
+---
+
+# 📱 3. Android - Base del proyecto
+
+## 📦 Dependencias clave
+
+```gradle
+implementation "androidx.room:room-ktx:2.6.1"
+implementation "androidx.work:work-runtime-ktx:2.9.0"
+implementation "com.squareup.retrofit2:retrofit:2.9.0"
+implementation "com.google.dagger:hilt-android:2.50"
+```
+
+---
+
+# 🧩 4. Base de datos local (Room)
+
+## 📌 Entidad con sync
+
+```kotlin
+@Entity(tableName = "ordenes")
+data class OrdenEntity(
+    @PrimaryKey(autoGenerate = true)
+    val idLocal: Int = 0,
+
+    val idRemote: Int? = null,
+
+    val cliente: String,
+    val descripcion: String,
+
+    val updatedAt: Long = System.currentTimeMillis(),
+
+    val estadoSync: String // PENDING, SYNCED, ERROR
+)
+```
+
+---
+
+## 📌 DAO
+
+```kotlin
+@Dao
+interface OrdenDao {
+
+    @Insert
+    suspend fun insert(orden: OrdenEntity)
+
+    @Query("SELECT * FROM ordenes")
+    fun getAll(): Flow<List<OrdenEntity>>
+
+    @Query("SELECT * FROM ordenes WHERE estadoSync != 'SYNCED'")
+    suspend fun getPendientes(): List<OrdenEntity>
+
+    @Update
+    suspend fun update(orden: OrdenEntity)
+}
+```
+
+---
+
+# 🌐 5. Cliente API (Retrofit)
+
+```kotlin
+interface OrdenApi {
+
+    @POST("ordenes")
+    suspend fun createOrden(
+        @Body orden: OrdenEntity
+    ): OrdenResponse
+
+    @GET("ordenes")
+    suspend fun getOrdenes(): List<OrdenResponse>
+}
+```
+
+---
+
+# 🔥 6. Repository (CORE del sistema)
+
+```kotlin
+class OrdenRepository(
+    private val dao: OrdenDao,
+    private val api: OrdenApi
+) {
+
+    fun getOrdenes() = dao.getAll()
+
+    suspend fun crearOrden(cliente: String, descripcion: String) {
+        val orden = OrdenEntity(
+            cliente = cliente,
+            descripcion = descripcion,
+            estadoSync = "PENDING"
+        )
+        dao.insert(orden)
+    }
+
+    suspend fun sync() {
+        syncLocalToRemote()
+        syncRemoteToLocal()
+    }
+
+    private suspend fun syncLocalToRemote() {
+        val pendientes = dao.getPendientes()
+
+        for (orden in pendientes) {
+            try {
+                val response = api.createOrden(orden)
+
+                dao.update(
+                    orden.copy(
+                        estadoSync = "SYNCED",
+                        idRemote = response.id
+                    )
+                )
+
+            } catch (e: Exception) {
+                dao.update(
+                    orden.copy(estadoSync = "ERROR")
+                )
+            }
+        }
+    }
+
+    private suspend fun syncRemoteToLocal() {
+        try {
+            val remoteOrdenes = api.getOrdenes()
+
+            for (remote in remoteOrdenes) {
+                // aquí puedes hacer merge o insert
+            }
+
+        } catch (e: Exception) {
+            // ignorar si no hay conexión
+        }
+    }
+}
+```
+
+---
+
+# ⚙️ 7. WorkManager (sync automático)
+
+```kotlin
+class SyncWorker(
+    context: Context,
+    params: WorkerParameters,
+    private val repository: OrdenRepository
+) : CoroutineWorker(context, params) {
+
+    override suspend fun doWork(): Result {
+        return try {
+            repository.sync()
+            Result.success()
+        } catch (e: Exception) {
+            Result.retry()
+        }
+    }
+}
+```
+
+---
+
+## 📌 Lanzar sync cuando haya internet
+
+```kotlin
+val work = OneTimeWorkRequestBuilder<SyncWorker>()
+    .setConstraints(
+        Constraints.Builder()
+            .setRequiredNetworkType(NetworkType.CONNECTED)
+            .build()
+    )
+    .build()
+
+WorkManager.getInstance(context).enqueue(work)
+```
+
+---
+
+# 🧠 8. ViewModel
+
+```kotlin
+@HiltViewModel
+class OrdenViewModel @Inject constructor(
+    private val repository: OrdenRepository
+) : ViewModel() {
+
+    val ordenes = repository.getOrdenes()
+
+    fun crear(cliente: String, descripcion: String) {
+        viewModelScope.launch {
+            repository.crearOrden(cliente, descripcion)
+        }
+    }
+}
+```
+
+---
+
+# 📱 9. UI (Jetpack Compose ejemplo)
+
+```kotlin
+@Composable
+fun PantallaOrdenes(viewModel: OrdenViewModel) {
+    val ordenes by viewModel.ordenes.collectAsState(initial = emptyList())
+
+    LazyColumn {
+        items(ordenes) { orden ->
+            Text("${orden.cliente} - ${orden.estadoSync}")
+        }
+    }
+}
+```
+
+---
+
+# ⚠️ 10. Problemas reales (nivel senior)
+
+## 🔴 Conflictos
+
+* Usa `updatedAt`
+* Decide: sobrescribir o fusionar
+
+## 🔴 Duplicados
+
+* Usa UUID desde Android
+
+## 🔴 Fallos de red
+
+* WorkManager ya reintenta
+
+---
+
+# 🚀 11. Evolución PRO (lo que hacen apps grandes)
+
+Si quieres escalar esto:
+
+* 🔹 Sincronización incremental (`updatedAt > lastSync`)
+* 🔹 Soft delete (`deletedAt`)
+* 🔹 Cola de operaciones (event sourcing)
+* 🔹 Paging + cache
+
+---
+
+# 🎯 Resumen final
+
+Tu app debe:
+
+1. Guardar en Room SIEMPRE
+2. Marcar estado (`PENDING`)
+3. WorkManager sincroniza
+4. Backend responde
+5. Actualizas a `SYNCED`
+6. UI observa con Flow
+
+---
+
+# 💬 Siguiente paso
+
+Si quieres, en el siguiente nivel te puedo enseñar:
+
+👉 🔥 Autenticación JWT (Android + NestJS)
+👉 🔥 Subida de fotos offline (muy importante para tu caso)
+👉 🔥 Geolocalización + firma del cliente
+👉 🔥 Proyecto completo tipo app real (como servicio técnico)
+
+Solo dime:
+
+👉 *“siguiente nivel”*
+

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Code Viewer</title>
+
+    <!-- Tema oscuro tipo GitHub -->
+    <link rel="stylesheet"
+     href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+</head>
+<body>
+
+<pre><code class="language-kotlin">
+data class Cliente(
+    val id: Int,
+    val nombre: String
+)
+
+data class Equipo(
+    val id: Int,
+    val tipo: String,
+    val marca: String
+)
+
+data class OrdenServicio(
+    val id: Int,
+    val cliente: Cliente,
+    val equipo: Equipo,
+    val estado: Int
+)
+</code></pre>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+<script>hljs.highlightAll();</script>
+
+</body>
+</html>
