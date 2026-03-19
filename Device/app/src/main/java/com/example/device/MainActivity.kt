@@ -24,7 +24,19 @@ class MainActivity : ComponentActivity() {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
                     MainView(
                         name = "Android",
-                        modifier = Modifier.padding(innerPadding)
+                        modifier = Modifier.padding(innerPadding), devices = listOf(
+                            Device(
+                                id = 1,
+                                name = "Nexus",
+                                data = Specs(color = "Red", capacity = "20 GB")
+                            ),
+                            Device(
+                                id = 2,
+                                name = "Motorola",
+                                data = null
+                            )
+                        )
+
                     )
                 }
             }

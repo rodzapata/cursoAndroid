@@ -25,6 +25,7 @@
     <li><a href="cursoAndroid.html#colecciones">colecciones</a></li>
     <li><a href="cursoAndroid.html#activity">activity</a></li>
     <li><a href="cursoAndroid.html#item-view">item view</a></li>
+    <li><a href="cursoAndroid.html#text-field">TextField</a></li>
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
 
@@ -97,6 +98,7 @@
       rel="noopener noreferrer">rest api ejemplo</a><br>
     la url seria: <a href="https://api.restful-api.dev/objects" target="_blank" rel="noopener noreferrer">metodo Get</a>
     <br>
+    Jet Pack Compose <a href="https://www.youtube.com/watch?v=51uACzdyR_E&list=PLhcYacorV7U5yvj34WRoFvCuMKBFb5jpJ" target="_blank" rel="noopener noreferrer">Jet Pack por Dino Code</a><br>
 
 
 
@@ -572,22 +574,29 @@
     <pre>
       <code class="language-kotlin">
         @Composable
-        fun DeviceView(device: Device) {
+        fun DeviceItemView(device: Device) {
             Row(verticalAlignment = Alignment.CenterVertically) {
-                Icon(imageVector = Icons.Default.Phone, contentDescription = null)
+                Icon(
+                    imageVector = Icons.Default.Phone,
+                    contentDescription = null,
+                    modifier = Modifier.padding(horizontal = 16.dp)
+                )
                 Column {
                     Text(text = device.name, style = Typography.headlineMedium)
                     Text(text = device.data?.color ?: "-", style = Typography.bodyMedium)
                     Text(text = device.data?.capacity ?: "-", style = Typography.bodyMedium)
+                    HorizontalDivider()
+        
                 }
             }
+        
         }
         
         @Preview(showBackground = true, showSystemUi = true)
         @Composable
         fun DeviceItemPreview() {
             DeviceTheme() {
-                DeviceView(
+                DeviceItemView(
                     device = Device(
                         id = 1,
                         name = "Nexus",
@@ -595,11 +604,59 @@
                     )
                 )
             }
+        }
+        
+      </code>
+    </pre>
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="text-field">text field</h2>
+  <article>
+    el text field son los typo de objetos que nos permite capturar informacion por teclado ya sea un text, password, email, numeros, etc <br>
+    <pre>
+      <code>
+        @Composable
+        fun MainView(name: String, modifier: Modifier = Modifier) {
+        
+            var name by remember { mutableStateOf("") }
+        
+            Column {
+                Text(
+                    text = "Comprar",
+                    modifier = modifier
+                )
+        
+                TextField(
+                    value = name,
+                    onValueChange = { nuevoName ->
+                        name = nuevoName
+                    },
+                    placeholder = {
+                        Text(text = "nombre")
+                    },
+                    keyboardOptions = KeyboardOptions(
+                        keyboardType = KeyboardType.Text
+                    )
+                )
+            }
+        }
+
+        @Preview(showBackground = true, showSystemUi = true)
+        @Composable
+        fun MainPreview() {
+            DeviceTheme {
+                MainView("Android", Modifier.padding(top = 24.dp))
+            }
         }        
+
 
       </code>
     </pre>
   </article>
+
 
 
   <a href="cursoAndroid.html">⏫</a>
