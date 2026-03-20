@@ -19,6 +19,7 @@
     <li><a href="cursoAndroid.html#notebooklm">https://notebooklm.google/</a></li>
     <li><a href="cursoAndroid.html#referencia">Referencias</a></li>
     <li><a href="cursoAndroid.html#instalacion">Instalacion iniciales</a></li>
+    <li><a href="cursoAndroid.html#celular">ejecutar en el celular</a></li>
     <li><a href="cursoAndroid.html#variables">Variables en Kotlin</a></li>
     <li><a href="cursoAndroid.html#when">when en Kotlin</a></li>
     <li><a href="cursoAndroid.html#data-class">data class</a></li>
@@ -26,6 +27,7 @@
     <li><a href="cursoAndroid.html#activity">activity</a></li>
     <li><a href="cursoAndroid.html#item-view">item view</a></li>
     <li><a href="cursoAndroid.html#text-field">TextField</a></li>
+    <li><a href="cursoAndroid.html#button">Button</a></li>
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
 
@@ -111,6 +113,87 @@
     podemos trabajar con Android Studio o Inteligg J. <br>
     tambien podemos ir codificando en Kotlin de manera on line <a href="https://play.kotlinlang.org/"
       target="_blank">https://play.kotlinlang.org</a>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="celular">ejecutar en el celular</h2>
+  <article>
+    podemos probar conectando el celular por USB <br>
+    <pre>
+      <code>
+        ✅ 1. Activar modo desarrollador en tu celular
+        
+        En tu teléfono Android:
+        
+        Ve a Ajustes → Acerca del teléfono
+        
+        Busca Número de compilación
+        
+        Toca 7 veces hasta que diga “Ahora eres desarrollador”
+        
+        ✅ 2. Activar depuración USB
+        
+        Luego:
+        
+        Ve a Ajustes → Opciones de desarrollador
+        
+        Activa:
+        
+        ✅ Depuración USB
+        
+        (Opcional pero recomendado) Instalar vía USB
+        
+        ✅ 3. Conectar el celular al PC
+        
+        Conecta el cable USB
+        
+        En el celular selecciona:
+        
+        Modo transferencia de archivos (MTP)
+        
+        👉 IMPORTANTE:
+        Te aparecerá un mensaje:
+        
+        “¿Permitir depuración USB?”
+        
+        ✔ Dale Permitir
+        ✔ Marca “Confiar siempre en este computador”
+
+      </code>
+    </pre>
+    <strong>Habiliar vista desde el PC usando el celular conectado</strong>
+    <pre>
+      <code>
+        ✅ OPCIÓN 1: Screen Mirroring desde Android Studio (LA MEJOR 🔥)
+        
+        Android Studio ya trae esto integrado:
+        
+        Pasos:
+        
+        Conecta tu celular por USB
+        
+        Abre Android Studio
+        
+        Ve a:
+        
+        View → Tool Windows → Running Devices
+        
+        Selecciona tu dispositivo
+        
+        Activa “Mirror device” o “Screen Mirroring”
+        
+        👉 Resultado:
+        
+        Ves la pantalla del celular en el PC
+        
+        Puedes hacer clic con el mouse
+        
+        Puedes escribir desde el teclado    
+
+
+      </code>
+    </pre>
   </article>
 
   <a href="cursoAndroid.html">⏫</a>
@@ -655,6 +738,74 @@
 
       </code>
     </pre>
+    <strong>Nota</strong><br>
+    tuve que agregar este import manual porque android studio no lo hace para que pueda funcionarr.
+    <pre>
+      <code>
+
+      </code>
+    </pre>
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="button">Butones</h2>
+  <article>
+    los botones se realizan asi: <br>
+    <pre>
+      <code>
+        @Composable
+        fun Greeting(name: String, modifier: Modifier = Modifier) {
+            var name by remember { mutableStateOf("") }
+        
+            Column() {
+                Text(
+                    text = "Hello $name!",
+                    modifier = modifier
+                )
+                TextField(
+                    value = name,
+                    onValueChange = { nuevoName ->
+                        name = nuevoName
+                    },
+                    placeholder = {
+                        Text(text = "nombre")
+                    },
+                    keyboardOptions = KeyboardOptions(
+                        keyboardType = KeyboardType.Text
+                    )
+                )
+                Button(
+                    onClick = {
+        
+                    },
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = MaterialTheme.colorScheme.primary,
+                        contentColor = MaterialTheme.colorScheme.onPrimary
+                    ),
+                    shape = RoundedCornerShape(15.dp)
+                ) {
+                    Icon(Icons.Default.Person, contentDescription = "persona")
+                    Text(
+                        text = "boton aceptar"
+                    )
+                }
+            }
+        }
+        
+        @Preview(showBackground = true)
+        @Composable
+        fun GreetingPreview() {
+            CursoTheme {
+                Greeting("Android")
+            }
+        }        
+
+
+      </code>
+    </pre>
+
   </article>
 
 
