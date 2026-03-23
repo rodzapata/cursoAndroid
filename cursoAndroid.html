@@ -27,6 +27,7 @@
     <li><a href="cursoAndroid.html#activity">activity</a></li>
     <li><a href="cursoAndroid.html#item-view">item view</a></li>
     <li><a href="cursoAndroid.html#text-field">TextField</a></li>
+    <li><a href="cursoAndroid.html#out-line-text-field">OutLineTextField</a></li>
     <li><a href="cursoAndroid.html#button">Button</a></li>
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
@@ -100,7 +101,10 @@
       rel="noopener noreferrer">rest api ejemplo</a><br>
     la url seria: <a href="https://api.restful-api.dev/objects" target="_blank" rel="noopener noreferrer">metodo Get</a>
     <br>
-    Jet Pack Compose <a href="https://www.youtube.com/watch?v=51uACzdyR_E&list=PLhcYacorV7U5yvj34WRoFvCuMKBFb5jpJ" target="_blank" rel="noopener noreferrer">Jet Pack por Dino Code</a><br>
+    Jet Pack Compose <a href="https://www.youtube.com/watch?v=51uACzdyR_E&list=PLhcYacorV7U5yvj34WRoFvCuMKBFb5jpJ"
+      target="_blank" rel="noopener noreferrer">Jet Pack por Dino Code</a><br>
+    curso android nivel intermedio <a href="https://www.youtube.com/watch?v=UaR7GSNACsM" target="_blank"
+      rel="noopener noreferrer">Android intermedio</a><br>
 
 
 
@@ -698,7 +702,8 @@
   <hr />
   <h2 id="text-field">text field</h2>
   <article>
-    el text field son los typo de objetos que nos permite capturar informacion por teclado ya sea un text, password, email, numeros, etc <br>
+    el text field son los typo de objetos que nos permite capturar informacion por teclado ya sea un text, password,
+    email, numeros, etc <br>
     <pre>
       <code>
         @Composable
@@ -742,6 +747,72 @@
     tuve que agregar este import manual porque android studio no lo hace para que pueda funcionarr.
     <pre>
       <code>
+
+      </code>
+    </pre>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="out-line-text-field">OutLine text field</h2>
+  <article>
+    🎯 ¿Por qué OutlinedTextField es el estándar? <br>
+
+    Porque sigue el diseño moderno de Material Design 3 (Material You): <br>
+
+    ✔ Más limpio visualmente
+    ✔ Mejor separación entre campos
+    ✔ Ideal para formularios largos
+    ✔ UX más clara en móviles
+
+    👉 Es el que ves en: <br>
+
+    Apps bancarias
+    Formularios empresariales
+    Apps tipo ERP/CRM
+
+    🧠 Regla práctica (muy importante) <br>
+
+    👉 Usa esto como regla en 2026:
+
+    Formularios (CRUD, backend, negocio) → ✅ OutlinedTextField
+    Buscadores, chat, inputs rápidos → ✅ TextField
+
+    <pre>
+      <code>
+        🚀 Ejemplo real recomendado
+        OutlinedTextField(
+            value = nombre,
+            onValueChange = { nombre = it },
+            label = { Text("Nombre") }
+        )
+        
+      </code>
+    </pre>
+    en nuestro caso de orden de servicio seria algo asi: <br>
+    <pre>
+      <code>
+        🧩 Si tienes MUCHAS preguntas (dinámico 🔥)
+        
+        👉 Este es el patrón real que se usa:
+        
+        LazyColumn {
+            items(preguntas) { pregunta ->
+        
+                Column(modifier = Modifier.padding(8.dp)) {
+        
+                    Text(text = pregunta.texto)
+        
+                    OutlinedTextField(
+                        value = pregunta.respuesta,
+                        onValueChange = { nueva ->
+                            pregunta.respuesta = nueva
+                        },
+                        modifier = Modifier.fillMaxWidth()
+                    )
+                }
+            }
+        }        
 
       </code>
     </pre>
@@ -906,8 +977,8 @@
   </pre>
   </article>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
-<script>hljs.highlightAll();</script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+  <script>hljs.highlightAll();</script>
 
 
 
