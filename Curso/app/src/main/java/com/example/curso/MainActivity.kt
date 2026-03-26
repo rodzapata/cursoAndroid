@@ -15,6 +15,7 @@ import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.Icon
 import androidx.compose.material3.MaterialTheme
+import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Scaffold
 import androidx.compose.material3.Text
 import androidx.compose.material3.TextField
@@ -27,6 +28,8 @@ import androidx.compose.ui.tooling.preview.Preview
 import com.example.curso.ui.theme.CursoTheme
 import androidx.compose.runtime.*
 import androidx.compose.ui.unit.dp
+import com.example.curso.view.AskAndAnswer
+
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -35,15 +38,20 @@ class MainActivity : ComponentActivity() {
         setContent {
             CursoTheme {
                 Scaffold(modifier = Modifier.fillMaxSize()) { innerPadding ->
+                    /*
                     Greeting(
                         name = "Android",
                         modifier = Modifier.padding(innerPadding)
                     )
+                    */
+                     AskAndAnswer(modifier = Modifier.padding(innerPadding))
                 }
             }
         }
     }
 }
+
+
 
 @Composable
 fun Greeting(name: String, modifier: Modifier = Modifier) {
