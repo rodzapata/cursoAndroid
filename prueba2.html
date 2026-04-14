@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Kotlin Editor Pro</title>
+
+<!-- Highlight.js -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/styles/github-dark.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
+
+<style>
+  body {
+    margin: 0;
+    background: #0d1117;
+    font-family: Consolas, monospace;
+  }
+
+  .editor-container {
+    display: flex;
+    height: 100vh;
+  }
+
+  .line-numbers {
+    background: #161b22;
+    color: #6e7681;
+    padding: 10px;
+    text-align: right;
+    user-select: none;
+  }
+
+  .line-numbers span {
+    display: block;
+    font-size: 14px;
+    line-height: 20px;
+  }
+
+  .editor-wrapper {
+    position: relative;
+    width: 100%;
+  }
+
+  textarea, pre {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Consolas, monospace;
+  }
+
+  textarea {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    color: transparent;
+    caret-color: white;
+    border: none;
+    resize: none;
+    z-index: 2;
+  }
+
+  pre {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background: #0d1117;
+    z-index: 1;
+  }
+
+  code {
+    display: block;
+    white-space: pre;
+  }
+</style>
+</head>
+
+<body>
+
+<div class="editor-container">
+
+  <!-- Line numbers -->
+  <div class="line-numbers" id="lines"></div>
+
+  <!-- Editor -->
+  <div class="editor-wrapper">
+    <textarea id="editor"></textarea>
+    <pre><code id="highlight" class="kotlin"></code></pre>
+  </div>
+
+</div>
+
+<script>
+const editor = document.getElementById("editor");
+const highlight = document.getElementById("highlight");
+const lines = document.getElementById("lines");
+
+// Código inicial
+editor.value = `fun main() {
+    val list: List<String> = listOf("A", "B", "C")
+    println(list)
+}`;
+
+// 🔥 Render principal
+function updateEditor() {
+  // ✔ evita problema < >
+  highlight.textContent = editor.value;
+
+  // Highlight
+  hljs.highlightElement(highlight);
+
+  updateLines();
+}
+
+// 📌 Números de línea
+function updateLines() {
+  const count = editor.value.split("\n").length;
+  lines.innerHTML = "";
+
+  for (let i = 1; i <= count; i++) {
+    const span = document.createElement("span");
+    span.textContent = i;
+    lines.appendChild(span);
+  }
+}
+
+// 🔄 Scroll sincronizado
+editor.addEventListener("scroll", () => {
+  highlight.parentElement.scrollTop = editor.scrollTop;
+  highlight.parentElement.scrollLeft = editor.scrollLeft;
+});
+
+// 🔄 Auto update al escribir
+editor.addEventListener("input", updateEditor);
+
+// Init
+updateEditor();
+</script>
+
+</body>
+</html>

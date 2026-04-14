@@ -31,6 +31,8 @@
     <li><a href="cursoAndroid.html#button">Button</a></li>
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
+    <li><a href="cursoAndroid.html#view-model">viewModel</a></li>
+    <li><a href="cursoAndroid.html#corrutinas">corrutinas</a></li>
 
     <li><a href="cursoAndroid.html#eventos">Eventos en Kotlin</a></li>
     <li><a href="cursoAndroid.html#intent">Intent</a></li>
@@ -934,6 +936,234 @@
     </pre>
   </article>
 
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="view-model">viewModel</h2>
+  <article>
+    para poder trabajar con view model primero hay que configurar el proyecto agregando las siguientes dependencias: <br>
+    <strong>dentro de TOML</strong> <br>
+    <pre>
+      <code>
+        
+        [versions]
+        viewModelV = "2.10.0"
+        
+        [libraries]
+        viewModel = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "viewModelV" }        
+      </code>
+    </pre>
+    <strong>En build.gradle.kts</strong> <br>
+    <pre>
+      <code>
+        
+        dependencies {
+            implementation(libs.viewModel)
+        }
+      </code>
+    </pre>
+    <strong>usar el viewModel en el compose</strong> <br>
+    <pre>
+      <code>
+        
+        @Composable
+        fun LoginScreen() {
+        
+            val viewModel: LoginViewModel = viewModel()
+        
+            Text(text = viewModel.message)
+        }    
+
+      </code>
+    </pre>
+
+    <strong>Ejemplo aplicado</strong><br>
+    <strong>1. modelo</strong> <br>
+    <pre>
+      <code>
+        package com.example.navegacion.domain.model
+        
+        data class User(
+            val id: Int,
+            val name: String
+        
+        )
+        
+      </code>
+    </pre>
+    <strong>2. Repository</strong><br>
+    <pre>
+      <code>
+        package com.example.navegacion.data.repository
+        import com.example.navegacion.domain.model.User
+        
+        class UserRepository {
+            fun GetUsers(): List&lt;User> {
+                return listOf(
+                    User(id = 1, name = "Rodney"),
+                    User(id = 2, name = "cecilia"),
+                    User(id = 3, name = "juan miguel"),
+                    User(id = 3, name = "samuel")
+        
+                )
+            }
+        }        
+
+      </code>
+    </pre>
+
+    <strong>3. viewModel</strong><br>
+    <pre>
+      <code>
+        package com.example.navegacion.ui.screens.user
+        import androidx.lifecycle.ViewModel
+        import com.example.navegacion.data.repository.UserRepository
+        import com.example.navegacion.domain.model.User
+        
+        class UserViewModel : ViewModel() {
+            private val repository = UserRepository()
+        
+            fun GetUsers(): List&lt;User> {
+                return repository.GetUsers()
+        
+            }
+        
+        }
+      </code>
+    </pre>
+
+    <STrong>4. view</STrong>
+    <pre>
+      <code>
+        package com.example.navegacion.ui.screens.user
+        
+        import androidx.compose.foundation.layout.Column
+        import androidx.compose.foundation.layout.fillMaxSize
+        import androidx.compose.foundation.layout.padding
+        import androidx.compose.material3.Text
+        import androidx.compose.runtime.Composable
+        import androidx.compose.ui.Modifier
+        import androidx.compose.ui.unit.dp+
+        
+        @Composable
+        fun UserScreen(viewModel: UserViewModel = UserViewModel()) {
+        
+            val users = viewModel.GetUsers()
+        
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(32.dp)
+            )
+        
+             {
+                users.forEach {
+                    Text(text = it.name)
+                }
+            }
+        
+        }
+        
+      </code>
+    </pre>
+    <strong>Refactorizacion del ejemplo cambia el viewModel y la View</strong><br>
+    <strong>3. viewModel refactorizado</strong> <br>
+
+    <pre>
+      <code>
+        
+        package com.example.navegacion.ui.screens.user
+        
+        import androidx.compose.runtime.getValue
+        import androidx.compose.runtime.mutableStateOf
+        import androidx.compose.runtime.setValue
+        import androidx.lifecycle.ViewModel
+        import com.example.navegacion.data.repository.UserRepository
+        import com.example.navegacion.domain.model.User
+        
+        class UserViewModel : ViewModel() {
+            private val repository = UserRepository()
+        
+            var users by  mutableStateOf&lt;List&lt;User>>(emptyList())
+                private set
+        
+            fun loadUsers() {
+                users = repository.GetUsers()
+            }
+        }        
+
+      </code>
+    </pre>
+
+    <strong>4. view refactorizado</strong> <br>
+    <pre>
+      <code>
+        package com.example.navegacion.ui.screens.user
+        
+        import androidx.compose.foundation.layout.Column
+        import androidx.compose.foundation.layout.fillMaxSize
+        import androidx.compose.foundation.layout.padding
+        import androidx.compose.material3.Text
+        import androidx.compose.runtime.Composable
+        import androidx.compose.runtime.LaunchedEffect
+        import androidx.compose.ui.Modifier
+        import androidx.compose.ui.unit.dp
+        
+        @Composable
+        fun UserScreen(viewModel: UserViewModel = UserViewModel()) {
+        
+            val users = viewModel.users
+        
+            LaunchedEffect(Unit) {
+                viewModel.loadUsers()
+            }
+        
+            Column(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(32.dp)
+            )
+        
+            {
+                users.forEach {
+                    Text(text = it.name)
+                }
+            }
+        
+        }        
+
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="corrutinas">corrutinas</h2>
+  <article>
+    Las corrutinas es la forma moderna de manejar las consultas asincronicas sin tener que usar Callback con codigo complejo: <br>
+    <strong>Codigo CallBack</strong> <br>
+    <pre>
+      <code>
+        fun getData(callback: (String) -> Unit) {
+            Thread {
+                Thread.sleep(2000)
+                callback("Datos")
+            }.start()
+        }
+        
+      </code>
+    </pre>
+    <strong>Codigo con corrutinas</strong> <br>
+    <pre>
+      <code>
+        
+        suspend fun getData(): String {
+            delay(2000)
+            return "Datos"
+        }        
+      </code>
+    </pre>
+  </article>
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
