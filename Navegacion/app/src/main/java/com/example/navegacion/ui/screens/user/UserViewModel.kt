@@ -10,7 +10,7 @@ import com.example.navegacion.domain.model.User
 class UserViewModel : ViewModel() {
     private val repository = UserRepository()
 
-    var users by  mutableStateOf<List<User>>(emptyList())
+    var users by mutableStateOf<List<User>>(emptyList())
         private set
 
     fun loadUsers() {
