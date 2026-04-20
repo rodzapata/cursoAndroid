@@ -31,6 +31,9 @@
     <li><a href="cursoAndroid.html#button">Button</a></li>
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
+    <li><a href="cursoAndroid.html#estados">estados</a></li>
+    <li><a href="cursoAndroid.html#sealed-class">sealed class</a></li>
+
     <li><a href="cursoAndroid.html#view-model">viewModel</a></li>
     <li><a href="cursoAndroid.html#corrutinas">corrutinas</a></li>
 
@@ -937,6 +940,80 @@
       </code>
     </pre>
   </article>
+
+    <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="estados">estados</h2>
+  <article>
+    cuando trabajamos con textField o cualquier objeto de la IU tiene que esta vinculado a un valor, el cual llamamos estado: <br>
+    por ejemplo si ento un textField que captura el nombre de una persona el codigo seria: <br>
+    <strong>remenber</strong> <br>
+    <pre>
+      <code>
+        var nombre by remember { mutableStateOf("") }
+      </code>
+    </pre>
+    pero este valor se pierde si giro la pantalla, para que persista al rotar la pantalla hay que usar. <br>
+    <strong>rememberSaveable</strong><br>
+    <pre>
+      <code>
+        var nombre by rememberSaveable { mutableStateOf("") }
+      </code>
+    </pre>
+    estos casos se aplica cuando trabajamos con estados locales <br>
+    son los valores por defecto, pero cuando trabajos con viewModel hay que configurarlo manualmente y el codigo ahora seria: <br>
+    <strong>StateFlow</strong><br>
+    <pre>
+      <code>
+        class UserViewModel : ViewModel() {
+            private val _nombre = MutableStateFlow("")
+            val nombre: StateFlow<String> = _nombre
+        
+            fun onNombreChange(valor: String) {
+                _nombre.value = valor
+            }
+        }
+
+      </code>
+    </pre>
+    y para usarlo desde el viewModel desde una pantalla el codigo seria: <br>
+    <pre>
+      <code>
+        @Composable
+        fun UserScreen(viewModel: UserViewModel = viewModel()) {
+            val nombre by viewModel.nombre.collectAsState()
+        
+            TextField(
+                value = nombre,
+                onValueChange = { viewModel.onNombreChange(it) }
+            )
+        }
+
+      </code>
+    </pre>
+
+  </article>
+  
+    <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="sealed-class">sealed class</h2>
+  <article>
+    En Kotlin, una sealed class es una clase especial que se usa para representar un conjunto cerrado de tipos. <br>
+    Es decir, tú defines todos los posibles estados o variantes, y no pueden existir otros fuera de los que tú declaras. <br>
+    <strong>ejemplo basico</strong> <br>
+    <pre>
+      <code>
+        sealed class UiState {
+            object Loading : UiState()
+            data class Success(val data: List<String>) : UiState()
+            data class Error(val message: String) : UiState()
+        }
+        
+      </code>
+    </pre>
+
+  </article>
+
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
