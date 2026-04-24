@@ -13,7 +13,7 @@ class UserViewModel : ViewModel() {
     var users by mutableStateOf<List<User>>(emptyList())
         private set
 
-    fun loadUsers() {
-        users = repository.GetUsers()
+    suspend fun loadUsers() {
+        users = repository.getUsers()
     }
 }

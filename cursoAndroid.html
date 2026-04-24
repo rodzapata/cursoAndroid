@@ -39,6 +39,11 @@
 
     <li><a href="cursoAndroid.html#eventos">Eventos en Kotlin</a></li>
     <li><a href="cursoAndroid.html#intent">Intent</a></li>
+
+    <li><a href="cursoAndroid.html#room">room + Sqlite</a></li>
+    <li><a href="cursoAndroid.html#aleting">alerting</a></li>
+
+
   </ul>
   <a href="cursoAndroid.html">⏫</a>
   <hr />
@@ -121,10 +126,11 @@
       roadtmap para aprender kotlin <a href="https://www.youtube.com/watch?v=CU9MGhNyEmc&list=PLFV6hE_GSkxX9QStvnV3gdMhn9GOGeMHh&index=3" target="_blank" rel="noopener noreferrer">Roadmap by Martin Kipers</a><br>
       navegacion con jetpack componse la forma correcta <a href="https://www.youtube.com/watch?v=1OxiEaEWEe4" target="_blank" rel="noopener noreferrer">Navegacion correcta por Aristidev </a> <br>
       curso copleto de jetpack compose <a href="https://www.youtube.com/watch?v=RkZ849wySzg&list=PLQL8Dog3JUwe6fHSgVnBp68gVUCBkOL_n" target="_blank" rel="noopener noreferrer">Jetpack componse por juan galdo</a><br>
+      kotlin pildoras <a href="https://www.youtube.com/playlist?list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0" target="_blank" rel="noopener noreferrer">Hotlin pildoras informaticas</a><br>
+      crear app con base de datos local y remota <a href="https://www.youtube.com/watch?v=Vr1EXgEauxA&t=10435s" target="_blank" rel="noopener noreferrer">app con room completa por Ant</a><br>
+      ROOM <a href="https://www.youtube.com/watch?v=vSKzvA7bW6o" target="_blank" rel="noopener noreferrer">ROOM por Cirilus</a><br>
+      ROOM resumido <a href="https://www.youtube.com/watch?v=_P_eTHkVPw0" target="_blank" rel="noopener noreferrer">ROOM resumido por carlos Ktx</a> <br>
       
-
-
-
 
 
   </article>
@@ -967,7 +973,7 @@
       <code>
         class UserViewModel : ViewModel() {
             private val _nombre = MutableStateFlow("")
-            val nombre: StateFlow<String> = _nombre
+            val nombre: StateFlow&lt;String> = _nombre
         
             fun onNombreChange(valor: String) {
                 _nombre.value = valor
@@ -1004,14 +1010,52 @@
     <pre>
       <code>
         sealed class UiState {
-            object Loading : UiState()
-            data class Success(val data: List<String>) : UiState()
+            data object Loading : UiState()
+            data class Success(val data: List&lt;String>) : UiState()
             data class Error(val message: String) : UiState()
         }
         
       </code>
     </pre>
+    <strong>en el viewModel</strong> <br>
+    <pre>
+      <code>
+        class UserViewModel : ViewModel() {
+        
+            private val _state = MutableStateFlow&lt;UiState>(UiState.Loading)
+            val state: StateFlow&lt;UiState> = _state
+        
+            fun cargarUsuarios() {
+                viewModelScope.launch {
+                    try {
+                        _state.value = UiState.Loading
+                        val data = listOf("Rodney", "Cecilia") // Simulación API
+                        _state.value = UiState.Success(data)
+                    } catch (e: Exception) {
+                        _state.value = UiState.Error("Error al cargar")
+                    }
+                }
+            }
+        }    
+      </code>
+    </pre>
 
+    <strong>🎨 En Jetpack Compose:</strong><br>
+    <pre>
+      <code>
+        @Composable
+        fun UserScreen(viewModel: UserViewModel) {
+            val state = viewModel.state.collectAsState()
+        
+            when (val result = state.value) {
+                is UiState.Loading -> Text("Cargando...")
+                is UiState.Success -> Text("Usuarios: ${result.data}")
+                is UiState.Error -> Text("Error: ${result.message}")
+            }
+        }
+        
+      </code>
+    </pre>
   </article>
 
 
@@ -1076,7 +1120,7 @@
         import com.example.navegacion.domain.model.User
         
         class UserRepository {
-            fun GetUsers(): List&lt;User> {
+            fun getUsers(): List&lt;User> {
                 return listOf(
                     User(id = 1, name = "Rodney"),
                     User(id = 2, name = "cecilia"),
@@ -1101,8 +1145,8 @@
         class UserViewModel : ViewModel() {
             private val repository = UserRepository()
         
-            fun GetUsers(): List&lt;User> {
-                return repository.GetUsers()
+            fun getUsers(): List&lt;User> {
+                return repository.getUsers()
         
             }
         
@@ -1126,7 +1170,7 @@
         @Composable
         fun UserScreen(viewModel: UserViewModel = UserViewModel()) {
         
-            val users = viewModel.GetUsers()
+            val users = viewModel.getUsers()
         
             Column(
                 modifier = Modifier
@@ -1166,7 +1210,7 @@
                 private set
         
             fun loadUsers() {
-                users = repository.GetUsers()
+                users = repository.getUsers()
             }
         }        
 
@@ -1329,6 +1373,170 @@
 
     </code>
   </pre>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="room">room + sqlite</h2>
+  <article>
+    lo primero consiste en instalar las dependecias de room . <br>
+    <strong>paso 1 agregar dependencias En build.gradle:</strong> <br>
+    <pre>
+      <code>
+
+        implementation("androidx.room:room-runtime:2.6.1")
+        kapt("androidx.room:room-compiler:2.6.1")
+        
+        implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.7.0")
+        implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+        
+      </code>
+    </pre>
+    <strong>Nota</strong><br>
+    a mi funciono fue lo siguiente en el gradle.toml : <br>
+    <pre>
+      <code>
+       
+        [versions]
+        agp = "9.1.1"
+        coreKtx = "1.18.0"
+        junit = "4.13.2"
+        junitVersion = "1.3.0"
+        espressoCore = "3.7.0"
+        lifecycleRuntimeKtx = "2.10.0"
+        activityCompose = "1.13.0"
+        kotlin = "2.2.10"
+        composeBom = "2025.02.00"
+        room="2.8.4"
+        
+        [libraries]
+        androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+        junit = { group = "junit", name = "junit", version.ref = "junit" }
+        androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+        androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+        androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+        androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+        androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+        androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+        androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+        androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+        androidx-compose-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+        androidx-compose-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+        androidx-compose-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+        androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+        
+        androidx-room-runtime={group="androidx.room", name="room-runtime", version.ref="room"}
+        androidx-room-ktx={group="androidx.room", name="room-ktx", version.ref="room"}
+        androidx-room-compiler={group="androidx.room", name="room-compiler", version.ref="room"}
+        
+        [plugins]
+        android-application = { id = "com.android.application", version.ref = "agp" }
+        kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+        
+        ksp = { id = "com.google.devtools.ksp", version = "2.3.6" }
+
+      </code>
+    </pre>
+    
+    <strong>en gradle.app </strong><br>
+    
+    <pre>
+      <code>
+        
+        plugins {
+            alias(libs.plugins.android.application)
+            alias(libs.plugins.kotlin.compose)
+            alias(libs.plugins.ksp)
+        }
+        
+        dependencies {
+            implementation(libs.androidx.core.ktx)
+            implementation(libs.androidx.lifecycle.runtime.ktx)
+            implementation(libs.androidx.activity.compose)
+            implementation(platform(libs.androidx.compose.bom))
+            implementation(libs.androidx.compose.ui)
+            implementation(libs.androidx.compose.ui.graphics)
+            implementation(libs.androidx.compose.ui.tooling.preview)
+            implementation(libs.androidx.compose.material3)
+            testImplementation(libs.junit)
+            androidTestImplementation(libs.androidx.junit)
+            androidTestImplementation(libs.androidx.espresso.core)
+            androidTestImplementation(platform(libs.androidx.compose.bom))
+            androidTestImplementation(libs.androidx.compose.ui.test.junit4)
+            debugImplementation(libs.androidx.compose.ui.tooling)
+            debugImplementation(libs.androidx.compose.ui.test.manifest)
+        
+            implementation(libs.androidx.room.runtime)
+            implementation(libs.androidx.room.ktx)
+            //implementation(libs.androidx.room.compiler)
+
+            ksp(libs.androidx.room.compiler)
+
+        }
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="alerting">alerting</h2>
+  <article>
+    Es simplemente mostrar un mensaje visual para informar algo al usuario, por ejemplo: <br>
+    <strong>1. Alert Dialog</strong> <br>
+    <pre>
+      <code>
+        AlertDialog.Builder(context)
+            .setTitle("Confirmación")
+            .setMessage("¿Deseas eliminar este registro?")
+            .setPositiveButton("Sí") { _, _ ->
+                // acción
+            }
+            .setNegativeButton("No", null)
+            .show()
+      </code>
+    </pre>
+    <strong>2. 🍞 Toast (mensaje rápido)</strong><br>
+    <pre>
+      <code>
+        Toast.makeText(context, "Guardado correctamente", Toast.LENGTH_SHORT).show()
+      </code>
+    </pre>
+
+    <strong>3. 📌 Snackbar (más moderno)</strong><br>
+    <pre>
+      <code>
+        Snackbar.make(view, "Registro eliminado", Snackbar.LENGTH_LONG)
+            .setAction("Deshacer") {
+                // acción
+            }
+            .show()
+      </code>
+    </pre>
+
+    <strong>4. 🧠 En Jetpack Compose (moderno 2026)</strong><br>
+    <pre>
+      <code>
+        if (showDialog) {
+            AlertDialog(
+                onDismissRequest = { showDialog = false },
+                title = { Text("Confirmación") },
+                text = { Text("¿Deseas continuar?") },
+                confirmButton = {
+                    Button(onClick = { /* acción */ }) {
+                        Text("Sí")
+                    }
+                },
+                dismissButton = {
+                    Button(onClick = { showDialog = false }) {
+                        Text("No")
+                    }
+                }
+            )
+        }
+        
+      </code>
+    </pre>
   </article>
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.9.0/highlight.min.js"></script>
