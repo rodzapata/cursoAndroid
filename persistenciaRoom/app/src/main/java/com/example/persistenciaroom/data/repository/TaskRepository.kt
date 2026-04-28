@@ -1,13 +1,9 @@
-package com.example.persistenciaroom.data
+package com.example.persistenciaroom.data.repository
 
-import androidx.room.Insert
-import androidx.room.OnConflictStrategy
-import androidx.room.Query
-import androidx.room.Update
-import androidx.room.Upsert
+import com.example.persistenciaroom.data.TaskEntity
 import kotlinx.coroutines.flow.Flow
 
-interface  taskRepository{
+interface TaskRepository {
     fun observeTasks(): Flow<List<TaskEntity>>
 
     suspend fun insertTask(task: TaskEntity)

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Todo App</string>
+    <string name="task_edit_title">Edit</string>
+    <string name="task_detail_title">Detail</string>
+    <string name="task_entry_title">Add Task</string>
+    <string name="back_button">Back</string>
+    <string name="delete_button">Delete Task</string>
+    <string name="no_tasks_description">Oops!\nNo tasks in the list.\nTap + to add.</string>
+    <string name="task_title_req">Task Title*</string>
+    <string name="task_description_req">Task Description*</string>
+    <string name="required_fields">*required fields</string>
+    <string name="save_action">Save</string>
+</resources>

@@ -29,6 +29,10 @@
     <li><a href="cursoAndroid.html#text-field">TextField</a></li>
     <li><a href="cursoAndroid.html#out-line-text-field">OutLineTextField</a></li>
     <li><a href="cursoAndroid.html#button">Button</a></li>
+    <li><a href="cursoAndroid.html#scaffold">scaffold</a></li>
+    <li><a href="cursoAndroid.html#barra-busqueda">barra de busquedas</a></li>
+    <li><a href="cursoAndroid.html#navigation3">navigation3</a></li>
+
 
     <li><a href="cursoAndroid.html#estructura">estructura</a></li>
     <li><a href="cursoAndroid.html#estados">estados</a></li>
@@ -679,6 +683,129 @@
   </pre>
   </article>
 
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="barra-busqueda">barra de Busquedas</h2>
+  <article>
+    <pre>
+      Usa el elemento <strong>SearchBar</strong> componible para implementar barras de búsqueda. Entre los parámetros clave de este elemento componible, se incluyen los siguientes:
+      
+      <strong>inputField:</strong> Define el campo de entrada de la barra de búsqueda. Por lo general, utiliza SearchBarDefaults.InputField, lo que permite personalizar lo siguiente:
+      <strong>query:</strong> Es el texto de la búsqueda que se mostrará en el campo de entrada.
+      <strong>onQueryChange:</strong> Es la función Lambda que controla los cambios en la cadena de consulta.
+      <strong>expanded:</strong> Es un valor booleano que indica si la barra de búsqueda se expandió para mostrar sugerencias o resultados filtrados.
+      <strong>onExpandedChange:</strong> Es una expresión lambda para controlar los cambios en el estado expandido del menú desplegable.
+      
+      <strong>content:</strong> Es el contenido de esta barra de búsqueda para mostrar los resultados de la búsqueda debajo de inputField.
+     
+
+    </pre>
+    <strong>Ejemplo: </strong><br>
+    <pre>
+      <code>
+        @OptIn(ExperimentalMaterial3Api::class)
+        @Composable
+        fun SimpleSearchBar(
+            textFieldState: TextFieldState,
+            onSearch: (String) -> Unit,
+            searchResults: List<String>,
+            modifier: Modifier = Modifier
+        ) {
+            // Controls expansion state of the search bar
+            var expanded by rememberSaveable { mutableStateOf(false) }
+        
+            Box(
+                modifier
+                    .fillMaxSize()
+                    .semantics { isTraversalGroup = true }
+            ) {
+                SearchBar(
+                    modifier = Modifier
+                        .align(Alignment.TopCenter)
+                        .semantics { traversalIndex = 0f },
+                    inputField = {
+                        SearchBarDefaults.InputField(
+                            query = textFieldState.text.toString(),
+                            onQueryChange = { textFieldState.edit { replace(0, length, it) } },
+                            onSearch = {
+                                onSearch(textFieldState.text.toString())
+                                expanded = false
+                            },
+                            expanded = expanded,
+                            onExpandedChange = { expanded = it },
+                            placeholder = { Text("Search") }
+                        )
+                    },
+                    expanded = expanded,
+                    onExpandedChange = { expanded = it },
+                ) {
+                    // Display search results in a scrollable column
+                    Column(Modifier.verticalScroll(rememberScrollState())) {
+                        searchResults.forEach { result ->
+                            ListItem(
+                                headlineContent = { Text(result) },
+                                modifier = Modifier
+                                    .clickable {
+                                        textFieldState.edit { replace(0, length, result) }
+                                        expanded = false
+                                    }
+                                    .fillMaxWidth()
+                            )
+                        }
+                    }
+                }
+            }
+        }
+        
+        @Preview(showBackground = true)
+        @Composable
+        fun SimpleSearchBarPreview() {
+        
+            val textFieldState = rememberTextFieldState("")
+        
+            val fakeResults = listOf(
+                "Aire acondicionado",
+                "Reparación",
+                "Mantenimiento",
+                "Instalación",
+                "Filtro"
+            )
+        
+            SimpleSearchBar(
+                textFieldState = textFieldState,
+                onSearch = { query ->
+                    println("Searching: $query")
+                },
+                searchResults = fakeResults
+            )
+        }
+        
+      </code>
+    </pre>
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="navigation3">Navigation3</h2>
+  <article>
+    <pre>
+      🔍 Por eso ves esos nombres nuevos
+      
+      En navigation3 cambian los conceptos:
+      
+      Navigation actual	Navigation3
+      NavHost	NavDisplay
+      composable	NavEntry
+      NavController	(más simplificado / implícito)
+
+
+    </pre>
+
+  </article>
+
+
   <a href="cursoAndroid.html">⏫</a>
   <hr />
   <h2 id="item-view">item view</h2>
@@ -905,7 +1032,91 @@
 
   </article>
 
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="scaffold">Scaffold</h2>
+  <article>
+    En Material Design, un scaffold es una estructura fundamental que proporciona una plataforma estandarizada para interfaces de usuario complejas. <br>
+    Mantiene unidas diferentes partes de la IU, como las barras de la app y los botones de acción flotante, <br>
+    lo que les da a las apps una apariencia coherente. <br><br>
 
+    <pre>
+      <code>
+
+class MainActivity : ComponentActivity() {
+    override fun onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState)
+        enableEdgeToEdge()
+        setContent {
+            MyApplicationTheme {
+                scaffoldExample()
+            }
+        }
+    }
+}
+
+@OptIn(ExperimentalMaterial3Api::class)
+@Composable
+fun scaffoldExample() {
+
+    var presses by remember { mutableIntStateOf(0) }
+
+    Scaffold(
+        topBar = {
+            TopAppBar(
+                colors = topAppBarColors(
+                    containerColor = MaterialTheme.colorScheme.primaryContainer,
+                    titleContentColor = MaterialTheme.colorScheme.primary
+                ),
+                title = {
+                    Text(text = "Top Bar")
+                },
+            )
+        },
+        bottomBar = {
+            BottomAppBar(
+                containerColor = MaterialTheme.colorScheme.primaryContainer,
+                contentColor = MaterialTheme.colorScheme.primary
+            ) {
+                Text(
+                    text = "Botton AppBar"
+                )
+            }
+        },
+        floatingActionButton = {
+            FloatingActionButton(onClick = { presses++ }) {
+                Icon(Icons.Default.Add, contentDescription="Add")
+            }
+        }
+    )
+    { innerPadding ->
+        Column(
+            modifier = Modifier
+                .padding(innerPadding),
+            verticalArrangement = Arrangement.spacedBy(10.dp)
+        ) {
+            Text(
+                text = "prueba en kotlin"
+            )
+        }
+
+    }
+
+}
+
+
+@Preview(showBackground = true)
+@Composable
+fun scaffoldExamplePreview() {
+    MyApplicationTheme {
+        scaffoldExample()
+    }
+
+}
+        
+      </code>
+    </pre>
+  </article>
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
