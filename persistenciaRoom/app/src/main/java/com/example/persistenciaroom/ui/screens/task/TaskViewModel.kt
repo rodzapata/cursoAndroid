@@ -32,7 +32,7 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
     fun addTask(title: String) {
         if (title.isBlank()) return
         viewModelScope.launch {
-            taskDao.insert(
+            taskDao.insertTask(
                 TaskEntity(title = title.trim())
             )
         }
@@ -40,7 +40,7 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
 
     fun toggleTask(task: TaskEntity) {
         viewModelScope.launch {
-            taskDao.update(
+            taskDao.updateTask(
                 task.copy(isDone = !task.isDone)
             )
         }
@@ -48,7 +48,7 @@ class TaskViewModel(application: Application) : AndroidViewModel(application) {
 
     fun clearAll() {
         viewModelScope.launch {
-            taskDao.clearAll()
+            taskDao.clearAllTask()
         }
     }
 

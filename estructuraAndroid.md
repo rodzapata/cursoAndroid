@@ -605,3 +605,85 @@ domain/
 ```
 
 y además te mostraré **cómo crear tu primer proyecto Android profesional desde cero** paso a paso.
+
+
+### Estructura recomendada en el 2026
+
+```
+com.example.ordenesapp
+│
+├── app/                          # Entrada de la app
+│   ├── MainActivity.kt
+│   ├── App.kt
+│   ├── AppNavigation.kt
+│   └── MainViewModel.kt          # (solo si usas navegación global)
+│
+├── core/                         # Reutilizable en toda la app
+│   │
+│   ├── navigation/
+│   │   ├── Screen.kt
+│   │   └── NavState.kt
+│   │
+│   ├── network/
+│   │   ├── ApiClient.kt
+│   │   └── NetworkResult.kt
+│   │
+│   ├── database/
+│   │   ├── AppDatabase.kt
+│   │   └── dao/
+│   │       └── OrderDao.kt
+│   │
+│   ├── model/                    # DTOs (API)
+│   │   └── OrderDto.kt
+│   │
+│   └── ui/
+│       ├── components/           # Botones, cards, etc
+│       └── theme/
+│
+├── feature/                      # 👈 AQUÍ vive lo importante
+│   │
+│   ├── orders/
+│   │   │
+│   │   ├── presentation/
+│   │   │   ├── OrdersScreen.kt
+│   │   │   ├── OrderDetailScreen.kt
+│   │   │   ├── CreateOrderScreen.kt
+│   │   │   ├── OrdersViewModel.kt
+│   │   │   └── OrdersState.kt
+│   │   │
+│   │   ├── domain/
+│   │   │   ├── model/
+│   │   │   │   └── Order.kt
+│   │   │   │
+│   │   │   ├── repository/
+│   │   │   │   └── OrderRepository.kt
+│   │   │   │
+│   │   │   └── usecase/
+│   │   │       ├── GetOrdersUseCase.kt
+│   │   │       ├── GetOrderDetailUseCase.kt
+│   │   │       └── CreateOrderUseCase.kt
+│   │   │
+│   │   └── data/
+│   │       ├── repository/
+│   │       │   └── OrderRepositoryImpl.kt
+│   │       │
+│   │       ├── remote/
+│   │       │   └── OrderApi.kt
+│   │       │
+│   │       └── local/
+│   │           ├── OrderEntity.kt
+│   │           └── OrderLocalDataSource.kt
+│   │
+│   ├── home/
+│   │   └── presentation/
+│   │       └── HomeScreen.kt
+│   │
+│   └── auth/ (opcional futuro)
+│       ├── presentation/
+│       ├── domain/
+│       └── data/
+│
+└── di/                           # Inyección de dependencias
+    └── AppModule.kt
+
+```

@@ -130,13 +130,15 @@
       roadtmap para aprender kotlin <a href="https://www.youtube.com/watch?v=CU9MGhNyEmc&list=PLFV6hE_GSkxX9QStvnV3gdMhn9GOGeMHh&index=3" target="_blank" rel="noopener noreferrer">Roadmap by Martin Kipers</a><br>
       navegacion con jetpack componse la forma correcta <a href="https://www.youtube.com/watch?v=1OxiEaEWEe4" target="_blank" rel="noopener noreferrer">Navegacion correcta por Aristidev </a> <br>
       curso copleto de jetpack compose <a href="https://www.youtube.com/watch?v=RkZ849wySzg&list=PLQL8Dog3JUwe6fHSgVnBp68gVUCBkOL_n" target="_blank" rel="noopener noreferrer">Jetpack componse por juan galdo</a><br>
+      Nav3 <a href="https://www.youtube.com/watch?v=YCL1FfFaxwc&t=153s" target="_blank" rel="noopener noreferrer">Nav3 DevExper</a><br> 
+      Nav3 video nuevo <a href="https://www.youtube.com/watch?v=bdvzx2gkCMY" target="_blank" rel="noopener noreferrer">Nav3 Programacion inicial</a><br>
       kotlin pildoras <a href="https://www.youtube.com/playlist?list=PLU8oAlHdN5BkdfBPpNv_lVCJxJgE87cr0" target="_blank" rel="noopener noreferrer">Hotlin pildoras informaticas</a><br>
       crear app con base de datos local y remota <a href="https://www.youtube.com/watch?v=Vr1EXgEauxA&t=10435s" target="_blank" rel="noopener noreferrer">app con room completa por Ant</a><br>
       ROOM <a href="https://www.youtube.com/watch?v=vSKzvA7bW6o" target="_blank" rel="noopener noreferrer">ROOM por Cirilus</a><br>
       ROOM resumido <a href="https://www.youtube.com/watch?v=_P_eTHkVPw0" target="_blank" rel="noopener noreferrer">ROOM resumido por carlos Ktx</a> <br>
       ROOM por gabi <a href="https://www.youtube.com/watch?v=fy5q9G0XjfY" target="_blank" rel="noopener noreferrer">ROOM gabi moreno</a> <br>
       
-
+      en esta pagina podemos ver los paquetes y versiones utilizadas en android <a href="https://maven.google.com/" target="_blank" rel="noopener noreferrer">maven google.com</a><br>
 
   </article>
 
@@ -791,18 +793,239 @@
   <h2 id="navigation3">Navigation3</h2>
   <article>
     <pre>
-      🔍 Por eso ves esos nombres nuevos
-      
       En navigation3 cambian los conceptos:
       
-      Navigation actual	Navigation3
-      NavHost	NavDisplay
-      composable	NavEntry
-      NavController	(más simplificado / implícito)
+      <strong>Navigation 2.x</strong><br>
+      NavHost
+      componsable
+      NavController
 
+      <strong>Navigation 3</strong><br>
+      NavDisplay
+      NavEntry
+      (mas simplificado / impricito)
 
     </pre>
-
+  <strong>Cofiguracon de Dependencias </strong><br>
+  Configuracion en el TOML <br>
+  <pre>
+    <code>    
+      [versions]
+      # Core
+      kotlin = "2.2.21"
+      agp = "9.1.0"
+      
+      # Compose
+      compose-bom = "2026.04.01"
+      
+      # AndroidX
+      core-ktx = "1.13.1"
+      lifecycle = "2.8.0"
+      activity-compose = "1.9.0"
+      
+      # Navigation (experimental moderno)
+      navigation3 = "1.1.1"
+      
+      # Room
+      room = "2.8.4"
+      
+      # Serialization
+      kotlinx-serialization = "1.8.1"
+      
+      # Testing
+      junit = "4.13.2"
+      androidx-junit = "1.1.5"
+      espresso = "3.5.1"
+      
+      # KSP (alineado con Kotlin)
+      ksp = "2.3.6"
+      
+      
+      [libraries]
+      
+      # -------------------------
+      # CORE
+      # -------------------------
+      androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "core-ktx" }
+      
+      # -------------------------
+      # COMPOSE (controlado por BOM)
+      # -------------------------
+      androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "compose-bom" }
+      
+      androidx-compose-ui = { group = "androidx.compose.ui", name = "ui" }
+      androidx-compose-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+      androidx-compose-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+      androidx-compose-ui-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+      
+      androidx-compose-material3 = { group = "androidx.compose.material3", name = "material3" }
+      
+      # -------------------------
+      # LIFECYCLE
+      # -------------------------
+      androidx-lifecycle-runtime = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+      androidx-lifecycle-viewmodel-compose = { group = "androidx.lifecycle", name = "lifecycle-viewmodel-compose", version.ref = "lifecycle" }
+      
+      # -------------------------
+      # ACTIVITY
+      # -------------------------
+      androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activity-compose" }
+      
+      # -------------------------
+      # NAVIGATION 3 (experimental)
+      # -------------------------
+      androidx-navigation3-runtime = { group = "androidx.navigation3", name = "navigation3-runtime", version.ref = "navigation3" }
+      androidx-navigation3-ui = { group = "androidx.navigation3", name = "navigation3-ui", version.ref = "navigation3" }
+      
+      # -------------------------
+      # ROOM
+      # -------------------------
+      androidx-room-runtime = { group = "androidx.room", name = "room-runtime", version.ref = "room" }
+      androidx-room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "room" }
+      androidx-room-compiler = { group = "androidx.room", name = "room-compiler", version.ref = "room" }
+      
+      # -------------------------
+      # SERIALIZATION
+      # -------------------------
+      kotlinx-serialization-json = { group = "org.jetbrains.kotlinx", name = "kotlinx-serialization-json", version.ref = "kotlinx-serialization" }
+      
+      # -------------------------
+      # TESTING
+      # -------------------------
+      junit = { group = "junit", name = "junit", version.ref = "junit" }
+      androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "androidx-junit" }
+      androidx-espresso = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espresso" }
+      
+      
+      [plugins]
+      
+      android-application = { id = "com.android.application", version.ref = "agp" }
+      
+      kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+      kotlin-compose = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+      
+      # IMPORTANTE: misma versión que Kotlin
+      kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
+      
+      # KSP alineado con Kotlin
+      ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }      
+         </code>
+        </pre>
+      <strong>gradle .app</strong>
+      <pre>
+        <code>
+          
+          plugins {
+              alias(libs.plugins.android.application)
+              alias(libs.plugins.kotlin.compose)
+          
+              // 🔥 Serialization
+              alias(libs.plugins.kotlin.serialization)
+          
+              // 🔥 KSP (Room)
+              alias(libs.plugins.ksp)
+          }
+          
+          android {
+              namespace = "com.example.navegacionunida"
+          
+              compileSdk = 36
+          
+              defaultConfig {
+                  applicationId = "com.example.navegacionunida"
+                  minSdk = 34
+                  targetSdk = 36
+          
+                  versionCode = 1
+                  versionName = "1.0"
+          
+                  testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+              }
+          
+              buildTypes {
+                  release {
+                      isMinifyEnabled = false
+                      proguardFiles(
+                          getDefaultProguardFile("proguard-android-optimize.txt"),
+                          "proguard-rules.pro"
+                      )
+                  }
+              }
+          
+              compileOptions {
+                  sourceCompatibility = JavaVersion.VERSION_17
+                  targetCompatibility = JavaVersion.VERSION_17
+              }
+          
+          
+              buildFeatures {
+                  compose = true
+              }
+          }
+          
+          dependencies {
+          
+              // -------------------------
+              // CORE
+              // -------------------------
+              implementation(libs.androidx.core.ktx)
+          
+              // -------------------------
+              // COMPOSE (BOM)
+              // -------------------------
+              implementation(platform(libs.androidx.compose.bom))
+          
+              implementation(libs.androidx.compose.ui)
+              implementation(libs.androidx.compose.ui.graphics)
+              implementation(libs.androidx.compose.ui.preview)
+              implementation(libs.androidx.compose.material3)
+          
+              debugImplementation(libs.androidx.compose.ui.tooling)
+          
+              // -------------------------
+              // LIFECYCLE
+              // -------------------------
+              implementation(libs.androidx.lifecycle.runtime)
+              implementation(libs.androidx.lifecycle.viewmodel.compose)
+          
+              // -------------------------
+              // ACTIVITY
+              // -------------------------
+              implementation(libs.androidx.activity.compose)
+          
+              // -------------------------
+              // NAVIGATION 3
+              // -------------------------
+              implementation(libs.androidx.navigation3.runtime)
+              implementation(libs.androidx.navigation3.ui)
+          
+              // -------------------------
+              // ROOM
+              // -------------------------
+              implementation(libs.androidx.room.runtime)
+              implementation(libs.androidx.room.ktx)
+              ksp(libs.androidx.room.compiler)
+          
+              // -------------------------
+              // SERIALIZATION
+              // -------------------------
+              implementation(libs.kotlinx.serialization.json)
+          
+              // -------------------------
+              // TESTING
+              // -------------------------
+              testImplementation(libs.junit)
+              androidTestImplementation(libs.androidx.junit)
+              androidTestImplementation(libs.androidx.espresso)
+          
+              // Compose testing
+              androidTestImplementation(platform(libs.androidx.compose.bom))
+              androidTestImplementation("androidx.compose.ui:ui-test-junit4")
+              debugImplementation("androidx.compose.ui:ui-test-manifest")
+          }          
+          
+        </code>
+      </pre>
   </article>
 
 
