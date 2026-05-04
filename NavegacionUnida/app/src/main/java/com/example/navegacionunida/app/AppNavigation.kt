@@ -12,7 +12,7 @@ import com.example.navegacionunida.feature.orders.presentation.OrderDetailScreen
 import com.example.navegacionunida.feature.orders.presentation.OrdersScreen
 import com.example.navegacionunida.core.navigation.Screen
 
-
+/*
 @Composable
 fun AppNavigation(viewModel: MainViewModel) {
 
@@ -54,3 +54,4 @@ fun AppNavigation(viewModel: MainViewModel) {
         }
     }
 }
+*/
