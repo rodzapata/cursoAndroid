@@ -1,19 +1,39 @@
 package com.example.navegacion.ui.screens.user
 
-import androidx.compose.runtime.getValue
-import androidx.compose.runtime.mutableStateOf
-import androidx.compose.runtime.setValue
 import androidx.lifecycle.ViewModel
+import androidx.lifecycle.viewModelScope
 import com.example.navegacion.data.repository.UserRepository
-import com.example.navegacion.domain.model.User
+import com.example.navegacion.data.repository.UserRepositoryImpl
+import kotlinx.coroutines.flow.MutableStateFlow
+import kotlinx.coroutines.flow.StateFlow
+import kotlinx.coroutines.launch
 
-class UserViewModel : ViewModel() {
-    private val repository = UserRepository()
+class UserViewModel(
+    private val repository: UserRepository = UserRepositoryImpl()
+) : ViewModel() {
 
-    var users by mutableStateOf<List<User>>(emptyList())
-        private set
+    private val _state = MutableStateFlow(UserUiState())
+    val state: StateFlow<UserUiState> = _state
 
-    suspend fun loadUsers() {
-        users = repository.getUsers()
+    fun loadUsers() {
+        viewModelScope.launch {
+
+            _state.value = _state.value.copy(isLoading = true)
+
+            try {
+                val users = repository.getUsers()
+
+                _state.value = _state.value.copy(
+                    isLoading = false,
+                    users = users
+                )
+
+            } catch (e: Exception) {
+                _state.value = _state.value.copy(
+                    isLoading = false,
+                    error = e.message
+                )
+            }
+        }
     }
 }
