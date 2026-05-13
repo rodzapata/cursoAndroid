@@ -21,6 +21,9 @@
     <li><a href="cursoAndroid.html#instalacion">Instalacion iniciales</a></li>
     <li><a href="cursoAndroid.html#celular">ejecutar en el celular</a></li>
     <li><a href="cursoAndroid.html#variables">Variables en Kotlin</a></li>
+    <li><a href="cursoAndroid.html#volatile">@volatile</a></li>
+    <li><a href="cursoAndroid.html#surface">surface</a></li>
+
     <li><a href="cursoAndroid.html#when">when en Kotlin</a></li>
     <li><a href="cursoAndroid.html#data-class">data class</a></li>
     <li><a href="cursoAndroid.html#data-object">data object</a></li>
@@ -31,6 +34,11 @@
     <li><a href="cursoAndroid.html#text-field">TextField</a></li>
     <li><a href="cursoAndroid.html#out-line-text-field">OutLineTextField</a></li>
     <li><a href="cursoAndroid.html#button">Button</a></li>
+    <li><a href="cursoAndroid.html#imagen">Imagen</a></li>
+    <li><a href="cursoAndroid.html#recurso-string">recurso string</a></li>
+    <li><a href="cursoAndroid.html#icon">Icon</a></li>
+    <li><a href="cursoAndroid.html#spacer">spacer</a></li>
+
     <li><a href="cursoAndroid.html#scaffold">scaffold</a></li>
     <li><a href="cursoAndroid.html#barra-busqueda">barra de busquedas</a></li>
 
@@ -39,6 +47,8 @@
     <li><a href="cursoAndroid.html#estados">estados</a></li>
 
     <li><a href="cursoAndroid.html#view-model">viewModel</a></li>
+    <li><a href="cursoAndroid.html#object">object</a></li>
+    <li><a href="cursoAndroid.html#optional">optional</a></li>
     <li><a href="cursoAndroid.html#injeccion-dependencia">Injeccion de Dependencia</a></li>
     <li><a href="cursoAndroid.html#navigation3">navigation3</a></li>
     <li><a href="cursoAndroid.html#corrutinas">corrutinas</a></li>
@@ -185,10 +195,9 @@
     spring boot backEnd completo <a
       href="https://www.youtube.com/watch?v=3RKWGMjbJR4&list=PLA96kRUo8UuB9nBNm2aAYIns67lkI8mb5" target="_blank"
       rel="noopener noreferrer">BackEnd por CarlosDev</a><br>
-
-
-
-
+    curso jetpack compose <a href="https://www.youtube.com/watch?v=51uACzdyR_E&list=PLhcYacorV7U5yvj34WRoFvCuMKBFb5jpJ" target="_blank" rel="noopener noreferrer">jetpack compose por Dino Code</a><br>
+    curso oficial para aprender jetpack componse <a href="https://developer.android.com/codelabs" target="_blank" rel="noopener noreferrer">codelab</a><br>
+    10 app hechas con jetpack componse <a href="https://medium.com/@mmbialas/10-open-source-projects-thatll-make-you-excited-about-using-jetpack-compose-80c40550c32b" target="_blank" rel="noopener noreferrer">10 app jetpack compose</a><br>
   </article>
 
   <a href="cursoAndroid.html">⏫</a>
@@ -350,6 +359,118 @@
 
 
   </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="volatiles">@volatiles en Kotlin</h2>
+  <article>
+    <pre>
+      @Volatile en Kotlin se usa para indicar que una variable puede ser accedida y modificada por múltiples hilos (threads) al mismo tiempo, 
+      y que los cambios deben ser visibles inmediatamente para todos los hilos.
+    </pre>
+    <strong>ejemplo</strong> <br>
+    <pre>
+      <code>
+        @Volatile
+        private var INSTANCE: AppDatabase? = null        
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="surface">Surface</h2>
+  <article>
+    <pre>
+      Surface, Es un contenedor visual Material
+      Maneja estilos y fondo
+      Vive dentro de Compose
+    </pre>
+    <strong>ejemplo</strong><br>
+    <pre>
+      <code>
+        setContent {
+        
+            AppTheme {
+        
+                Surface(
+                    modifier = Modifier.fillMaxSize(),
+                    color = MaterialTheme.colorScheme.background
+                ) {
+        
+                    Scaffold(
+                        topBar = {
+                            TopAppBar(
+                                title = { Text("Inicio") }
+                            )
+                        }
+                    ) { padding ->
+        
+                        HomeScreen(
+                            modifier = Modifier.padding(padding)
+                        )
+        
+                    }
+        
+                }
+            }
+        }  
+        
+      </code>
+    </pre>
+    <strong>ejemplo de Bienvenida</strong><br>
+    <pre>
+      <code>
+        class MainActivity : ComponentActivity() {
+            override fun onCreate(savedInstanceState: Bundle?) {
+                super.onCreate(savedInstanceState)
+                enableEdgeToEdge()
+                setContent {
+                    CursoComposeTheme {
+                        //GetScaffold()
+                        GetSurface()
+                    }
+                }
+            }
+        }
+        
+        @Composable
+        fun GetSurface() {
+            Surface(
+                modifier = Modifier
+                    .fillMaxSize()
+                    .padding(vertical = 50.dp),
+                color = MaterialTheme.colorScheme.background
+            ) {
+                Column(
+                    modifier = Modifier
+                        .fillMaxSize(),
+                    verticalArrangement = Arrangement.Center,
+                    //horizontalAlignment = Alignment.CenterHorizontally
+        
+                ) {
+                    Text(
+                        text = "Happy Birday Sam",
+                        fontSize = 100.sp,
+                        lineHeight = 116.sp,
+                        textAlign = TextAlign.Center
+                    )
+                    Text(
+                        text = "from Rodney",
+                        fontSize = 36.sp,
+                        modifier = Modifier
+                            .align(alignment = Alignment.End)
+                    )
+                }
+            }
+        }
+        
+      </code>
+    </pre>
+
+  </article>
+
 
   <a href="cursoAndroid.html">⏫</a>
   <hr />
@@ -1152,6 +1273,106 @@
   <hr />
   <h2 id="button">Butones</h2>
   <article>
+    Los botones mas utilizados en aplicaciones modernas son: <br>
+    <pre>
+      <code>
+        | Acción          | Botón             |
+        | --------------- | ----------------- |
+        | Principal       | Button            |
+        | Secundaria      | OutlinedButton    |
+        | Poco importante | TextButton        |
+        | Acción rápida   | FAB               |
+        | Íconos toolbar  | IconButton        |
+        | Acciones suaves | FilledTonalButton |
+
+      </code>
+    </pre>
+    <strong>Ejemplo en jetpack Compose</strong><br>
+    <pre>
+      <code>
+        @Composable
+        fun GetBotones() {
+            Column(
+                modifier = Modifier
+                    .padding(vertical = 50.dp)
+                    .padding(horizontal = 12.dp)
+            ) {
+                Button(
+                    onClick = {},
+                    colors = ButtonDefaults.buttonColors(
+                        containerColor = MaterialTheme.colorScheme.primary,
+                        contentColor = MaterialTheme.colorScheme.onPrimary
+                    ),
+                ) {
+                    Text("Inicio")
+                }
+        
+                Button(
+                    onClick = {}
+                ) {
+                    Icon(Icons.Default.Person, "Persona")
+                    Text("Personalizado")
+                }
+        
+                OutlinedButton(onClick = {}
+        
+                ) {
+                    Text("Cancelar")
+                }
+        
+                OutlinedButton(
+                    onClick = {},
+                    colors = ButtonDefaults.outlinedButtonColors(
+                        containerColor = MaterialTheme.colorScheme.background,
+                        contentColor = MaterialTheme.colorScheme.primary
+                    ),
+                    shape = RoundedCornerShape(15.dp),
+                    border = BorderStroke(2.dp, MaterialTheme.colorScheme.primary),
+                    modifier = Modifier
+                        .shadow(4.dp, RoundedCornerShape(15.dp))
+        
+                ) {
+                    Icon(
+                        Icons.Default.Favorite, "favorito",
+                        modifier = Modifier.size(25.dp)
+                    )
+                    Text("favorito")
+                }
+        
+                TextButton(
+                    onClick = {}
+                ) {
+                    Text("Olvide mi contraseña")
+                }
+        
+                IconButton(
+                    onClick = { }
+                ) {
+                    Icon(
+                        Icons.Default.Search,
+                        contentDescription = null,
+                    )
+                }
+        
+                FloatingActionButton(
+                    onClick = {}
+                ) {
+                    Icon(
+                        Icons.Default.Add, null
+                    )
+                }
+        
+                FilledTonalButton(
+                    onClick = {}
+                ) {
+                    Text("filtrar")
+                }
+            }
+        }
+        
+      </code>
+    </pre>
+
     los botones se realizan asi: <br>
     <pre>
       <code>
@@ -1206,6 +1427,167 @@
       </code>
     </pre>
 
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="imagen">Imagen</h2>
+  <article>
+    <strong>Ejemplo 1</strong><br>
+    <pre>
+      <code>
+        val image = painterResource(R.drawable.fondo)
+        Image(
+            painter = image,
+            contentDescription = null,
+            contentScale = ContentScale.Crop,
+        )
+        
+      </code>
+    </pre>
+    <strong>Ejemplo 2</strong><br>
+    <pre>
+      <code>
+        @Composable
+        fun GetImagen() {
+            Box(
+                modifier = Modifier
+                    .padding(vertical = 64.dp)
+            ){
+                Image(
+                    painter = painterResource(id = R.drawable.fondo),
+                    contentDescription = null,
+                    modifier = Modifier
+                        .size(150.dp)
+                        .clip(CircleShape)
+                        .border(2.dp, Color.Green, CircleShape),
+                    contentScale = ContentScale.Crop
+                )
+        
+            }
+        }
+        
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="recurso-string">recurso string</h2>
+  <article>
+    dentro de la carpeta <strong>res</strong> buscamos el archivo <strong>strings.xml</strong> <br>
+    <pre>
+      &lt;resources>
+          &lt;string name="app_name">cursoCompose&lt;/string>
+          &lt;string name="happy_birthday_text">Happy Birthday Sam&lt;/string>
+          &lt;string name="signature_from_text">from Rodney&lt;/string>
+          &lt;string name="prueba_text">prueba de titulo&lt;/string>
+      &lt;/resources>
+    </pre>
+
+    <strong>codigo de ejemplo</strong>
+    <pre>
+      <code>
+        @Composable
+        fun GetString(){
+            val message= stringResource(R.string.happy_birthday_text)
+            val fromText=stringResource(R.string.signature_from_text)
+        
+            Column(
+                modifier = Modifier
+                    .fillMaxSize(),
+                verticalArrangement = Arrangement.Center,
+                //horizontalAlignment = Alignment.CenterHorizontally
+        
+            ) {
+                Text(
+                    text = message,
+                    fontSize = 100.sp,
+                    lineHeight = 116.sp,
+                    textAlign = TextAlign.Center
+                )
+                Text(
+                    text = fromText,
+                    fontSize = 36.sp,
+                    modifier = Modifier
+                        .align(alignment = Alignment.End)
+                )
+            }
+        }
+
+      </code>
+    </pre>
+
+  </article>
+
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="icon">Icon</h2>
+  <article>
+    <strong>ejemplo</strong><br>
+    <pre>
+      <code>
+        @Composable
+        fun GetIcon(){
+            Column(
+                modifier = Modifier.padding(vertical = 64.dp)
+            ) {
+                Icon(
+                    imageVector = Icons.Default.Home,
+                    contentDescription = "Home",
+                    modifier = Modifier
+                        .size(35.dp),
+                    tint= MaterialTheme.colorScheme.primary
+                )
+            }
+        }
+
+      </code>
+    </pre>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="spacer">spacer</h2>
+  <article>
+    es nuy utilizado para separar objetos y empujarlos <br>
+    <strong>ejemplo 1 separamos verticalmente y horizontalmente</strong> <br>
+    <pre>
+      <code>
+        @Composable
+        fun GetSpacer(
+        ) {
+            Column(
+                modifier = Modifier.padding(vertical = 64.dp)
+        
+            ) {
+                Text(
+                    text = "texto 1"
+                )
+                Spacer(modifier = Modifier.height(16.dp))
+                Text(
+                    text = "texto 2"
+                )
+            }
+        
+            Row(
+                modifier = Modifier.padding(vertical = 132.dp)
+        
+            ) {
+                Text(
+                    text = "columna 1"
+                )
+                Spacer(Modifier.width(45.dp))
+                Text(
+                    text = "columna 2"
+                )
+            }
+        }
+        
+      </code>
+    </pre>
   </article>
 
   <a href="cursoAndroid.html">⏫</a>
@@ -1621,6 +2003,190 @@ fun scaffoldExamplePreview() {
                         }
                     }
                 }
+            }
+        }
+        
+      </code>
+    </pre>
+
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="object">Object</h2>
+  <article>
+    <pre>
+      En Kotlin, object sirve para crear un único objeto en memoria (singleton)
+       o para declarar objetos anónimos y utilidades.
+    </pre>
+    <strong>Ejemplo </strong><br>
+    <pre>
+      <code>
+        object Logger {
+        
+            fun info(message: String) {
+                println("INFO: $message")
+            }
+        
+            fun error(message: String) {
+                println("ERROR: $message")
+            }
+        }
+      </code>
+    </pre>
+    <strong>Uso</strong><br>
+    <pre>
+      <code>
+        fun main() {
+        
+            Logger.info("Usuario logueado")
+            Logger.error("Error de conexión")
+        }        
+      </code>
+    </pre>
+    lo podemos usar desde cualquier parte sin tener que instanciarlo, se usar cuando se necesita algo global que quiere ser compartido. <br>
+    <pre>
+      es muy utilizado en :
+      
+      * Configuración
+      * Logger
+      * Cache
+      * SessionManager
+      * Constantes
+      * Helpers
+      * Validadores
+      * Navegación
+      * Estados globales    
+    </pre> 
+    <strong>ejemplo 2 en la navegacion</strong> <br>
+    <pre>
+      <code>
+        object Routes {
+        
+            const val HOME = "home"
+            const val LOGIN = "login"
+            const val USERS = "users"
+        }
+      </code>
+    </pre>
+    <strong>uso en la navegacion</strong><br>
+    <pre>
+      <code>
+        navController.navigate(Routes.HOME)
+      </code>
+    </pre>
+    <strong>ejemplo 3 implementando interfaces</strong> <br>
+    <pre>
+      <code>
+        sealed interface LoginState {
+        
+            object Loading : LoginState
+        
+            object Success : LoginState
+        
+            data class Error(
+                val message: String
+            ) : LoginState
+        }        
+      </code>
+    </pre>
+
+    <strong>uso interfaces</strong> <br>
+    <pre>
+      <code>
+        val state: LoginState = LoginState.Loading
+      </code>
+    </pre>
+    <strong>ejemplo 4 codnfiguracion global</strong><br>
+    <pre>
+      <code>
+        object DatabaseConfig {
+        
+            val url = "localhost"
+        }        
+      </code>
+    </pre>
+    <strong>Uso de la configuracion global</strong><br>
+    <pre>
+      <code>
+        println(DatabaseConfig.url)
+      </code>
+    </pre>
+    <strong>ejemplo 5. Sigleton con estado</strong><br>
+    <pre>
+      <code>
+        object SessionManager {
+            var usuario: String? = null
+        
+            fun login(nombre: String) {
+                usuario = nombre
+                println("Usuario $nombre ha iniciado sesión")
+            }
+        
+            fun logout() {
+                println("Usuario $usuario ha cerrado sesión")
+                usuario = null
+            }
+        }
+      </code>
+    </pre>
+    <strong>uso de la SessionManager</strong><br>
+    <pre>
+      <code>
+        SessionManager.login("Rodney")
+        println(SessionManager.usuario) // Rodney
+        SessionManager.logout()
+      </code>
+    </pre>
+  </article>
+
+  <a href="cursoAndroid.html">⏫</a>
+  <hr />
+  <h2 id="optional">Optional</h2>
+  <article>
+    es cuando una variable o un resultado puede devolver nulo en kotlin a diferencia de java, cuenta con el simbolo <strong>?</strong>. <br>
+    cuando el simbolo <strong>?:</strong> va acompañado con los dos punto se llama <strong>Elvis</strong> y es usado para el else. <br>
+    <strong>ejemplo en java </strong><br>
+    <pre>
+      <code>
+        Optional&lt;User> user = repository.findById(id);
+      </code>
+    </pre>
+
+    <strong>ejemplo en kotlin </strong><br>
+    <pre>
+      <code>
+        val user: User? = repository.findById(id)
+      </code>
+    </pre>
+    <strong>ejemplo del Elvis ?:</strong><br>
+    <pre>
+      <code>
+        val name: String? = "Juan"
+
+        println(name ?: "Vacío")
+      </code>
+    </pre><strong>ejemplo practico completo</strong><br>
+    <pre>
+      <code>
+        data class Customer(
+            val name: String?,
+            val email: String?
+        )
+        
+        fun main() {
+        
+            val customer = Customer(
+                name = null,
+                email = "test@gmail.com"
+            )
+        
+            val name = customer.name ?: "Cliente sin nombre"
+        
+            println(name)
+        
+            customer.email?.let {
+                println(it.uppercase())
             }
         }
         

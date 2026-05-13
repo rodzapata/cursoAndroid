@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">cursoCompose</string>
+    <string name="happy_birthday_text">Happy Birthday Sam</string>
+    <string name="signature_from_text">from Rodney</string>
+    <string name="prueba_text">prueba de titulo</string>
+
+</resources>
