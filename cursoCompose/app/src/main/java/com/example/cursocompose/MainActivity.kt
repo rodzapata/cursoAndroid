@@ -6,13 +6,16 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.BorderStroke
 import androidx.compose.foundation.Image
+import androidx.compose.foundation.background
 import androidx.compose.foundation.border
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.Spacer
+import androidx.compose.foundation.layout.fillMaxHeight
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -43,10 +46,11 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.draw.clip
 import androidx.compose.ui.draw.shadow
 import androidx.compose.ui.graphics.Color
-import androidx.compose.ui.input.pointer.motionEventSpy
 import androidx.compose.ui.layout.ContentScale
+import androidx.compose.ui.res.colorResource
 import androidx.compose.ui.res.painterResource
 import androidx.compose.ui.res.stringResource
+import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
@@ -59,8 +63,17 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContent {
-            CursoComposeTheme {
-                GetSpacer()
+            Surface(
+                modifier = Modifier.fillMaxSize(),
+                color = MaterialTheme.colorScheme.background
+            ) {
+                GetColumn()
+                //ComposeQuadrantApp()
+                // FourQuadrantsScreen()
+                //CuadranteCompose()
+                //EndTask()
+                //ComposeArticulo()
+                //GetSpacer()
                 //GetIcon()
                 //GetString()
                 //GetImagen()
@@ -71,6 +84,293 @@ class MainActivity : ComponentActivity() {
             }
         }
     }
+}
+
+@Composable
+fun GetColumn(){
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .padding(vertical = 64.dp)
+            .background(Color.Gray),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = "texto 1"
+        )
+        Text(
+            text = "texto2"
+        )
+    }
+}
+
+@Composable
+fun ComposeQuadrantApp() {
+    Column(Modifier.fillMaxWidth()) {
+        Row(Modifier.weight(1f)) {
+            ComposableInfoCard(
+                title = stringResource(R.string.first_title),
+                description = stringResource(R.string.first_description),
+                backgroundColor = Color(0xFFEADDFF),
+                modifier = Modifier.weight(1f)
+            )
+            ComposableInfoCard(
+                title = stringResource(R.string.second_title),
+                description = stringResource(R.string.second_description),
+                backgroundColor = Color(0xFFD0BCFF),
+                modifier = Modifier.weight(1f)
+            )
+        }
+        Row(Modifier.weight(1f)) {
+            ComposableInfoCard(
+                title = stringResource(R.string.third_title),
+                description = stringResource(R.string.third_description),
+                backgroundColor = Color(0xFFB69DF8),
+                modifier = Modifier.weight(1f)
+            )
+            ComposableInfoCard(
+                title = stringResource(R.string.fourth_title),
+                description = stringResource(R.string.fourth_description),
+                backgroundColor = Color(0xFFF6EDFF),
+                modifier = Modifier.weight(1f)
+            )
+        }
+    }
+}
+
+@Composable
+fun ComposableInfoCard(
+    title: String,
+    description: String,
+    backgroundColor: Color,
+    modifier: Modifier = Modifier
+) {
+    Column(
+        modifier = modifier
+            .fillMaxSize()
+            .background(backgroundColor)
+            .padding(16.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            text = title,
+            modifier = Modifier.padding(bottom = 16.dp),
+            fontWeight = FontWeight.Bold
+        )
+        Text(
+            text = description,
+            textAlign = TextAlign.Justify
+        )
+    }
+}
+
+
+@Composable
+fun FourQuadrantsScreen() {
+
+    Column(
+        modifier = Modifier.fillMaxSize()
+    ) {
+
+        // Parte superior
+        Row(
+            modifier = Modifier.weight(1f)
+        ) {
+
+            // Cuadrante 1
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .background(Color(0xFFE57373)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "1",
+                    color = Color.White,
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            // Cuadrante 2
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .background(Color(0xFF64B5F6)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "2",
+                    color = Color.White,
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        }
+
+        // Parte inferior
+        Row(
+            modifier = Modifier.weight(1f)
+        ) {
+
+            // Cuadrante 3
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .background(Color(0xFF81C784)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "3",
+                    color = Color.White,
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+
+            // Cuadrante 4
+            Box(
+                modifier = Modifier
+                    .weight(1f)
+                    .fillMaxHeight()
+                    .background(Color(0xFFFFB74D)),
+                contentAlignment = Alignment.Center
+            ) {
+                Text(
+                    text = "4",
+                    color = Color.White,
+                    fontSize = 32.sp,
+                    fontWeight = FontWeight.Bold
+                )
+            }
+        }
+    }
+}
+
+@Composable
+fun CuadranteCompose(modifier: Modifier = Modifier) {
+    Column(
+        Modifier.fillMaxWidth()
+    ) {
+        Row(
+            Modifier.weight(1f)
+        ) {
+            CuadranteCard(modifier = Modifier.weight(1f))
+            CuadranteCard(modifier = Modifier.weight(1f))
+        }
+
+        Row(
+            Modifier.weight(1f)
+        ) {
+            CuadranteCard(modifier = Modifier.weight(1f))
+            CuadranteCard(modifier = Modifier.weight(1f))
+        }
+
+    }
+}
+
+
+@Composable
+fun CuadranteCard(modifier: Modifier = Modifier) {
+    Column(
+        modifier = Modifier
+            .fillMaxSize()
+            .background(colorResource(R.color.purple_200))
+            .padding(16.dp),
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally,
+
+        ) {
+        Text(
+            text = "TText composable",
+            modifier = Modifier.padding(16.dp),
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center
+        )
+        Text(
+            text = "Displays text and follows the recommended Material Design guidelines.",
+            modifier = Modifier.padding(16.dp),
+            textAlign = TextAlign.Justify
+        )
+
+    }
+}
+
+@Composable
+fun EndTask() {
+    val taskImagen = painterResource(R.drawable.ic_task_completed)
+    val taskTitle = stringResource(R.string.task_title_text)
+    val taskSubtitle = stringResource(R.string.task_subtitle_text)
+
+    Column(
+        modifier = Modifier
+            .fillMaxWidth()
+            .fillMaxHeight(),
+
+        verticalArrangement = Arrangement.Center,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+
+        Image(
+            painter = taskImagen,
+            contentDescription = "logo de task",
+            modifier = Modifier
+                .size(200.dp),
+            //contentScale = ContentScale.Crop
+        )
+
+        Text(
+            text = taskTitle,
+            modifier = Modifier.padding(top = 24.dp, bottom = 8.dp),
+            fontWeight = FontWeight.Bold
+        )
+
+        Text(
+            text = taskSubtitle,
+            fontSize = 16.sp
+        )
+    }
+}
+
+@Composable
+fun ComposeArticulo() {
+    val title = stringResource(R.string.article_title_text)
+    val paragraph1 = stringResource(R.string.article_paragraph1_text)
+    val paragraph2 = stringResource(R.string.article_paragraph2_text)
+    val logoArticle = painterResource(R.drawable.bg_compose_background)
+
+
+    Column(
+        // modifier = Modifier.padding(vertical = 64.dp)
+    ) {
+        Image(
+            painter = logoArticle,
+            contentDescription = null
+        )
+
+        Text(
+            text = title,
+            fontSize = 24.sp,
+            modifier = Modifier.padding(16.dp)
+        )
+
+        Text(
+            text = paragraph1,
+            modifier = Modifier.padding(start = 15.dp, end = 16.dp),
+            textAlign = TextAlign.Justify
+        )
+
+        Text(
+            text = paragraph2,
+            modifier = Modifier.padding(16.dp),
+            textAlign = TextAlign.Justify
+        )
+    }
+
 }
 
 
