@@ -1,0 +1,9 @@
+nit 900055111
+
+clave: Nubia01*
+cedula: 57300866
+Nubia Perez
+
+
+link de consuta rut:
+https://muisca.dian.gov.co/WebRutMuisca/DefConsultaEstadoRUT.faces
