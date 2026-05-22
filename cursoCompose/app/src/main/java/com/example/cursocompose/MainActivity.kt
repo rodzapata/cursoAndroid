@@ -91,10 +91,17 @@ fun GetColumn(){
     Column(
         modifier = Modifier
             .fillMaxSize()
-            .padding(vertical = 64.dp)
+            .padding(top = 64.dp)
             .background(Color.Gray),
         horizontalAlignment = Alignment.CenterHorizontally
     ) {
+        Row(
+
+        ) {
+            Text(text = "columna 1")
+            Spacer(modifier = Modifier.width(32.dp))
+            Text(text = "columna 2")
+        }
         Text(
             text = "texto 1"
         )
