@@ -1,0 +1,16 @@
+CREATE TABLE dian_terceros (
+    nit               VARCHAR(20),
+    apellido1         VARCHAR(20),
+    apellido2         VARCHAR(20),
+    nombre1           VARCHAR(20),
+    nombre2           VARCHAR(20),
+    tipo_doc          VARCHAR(2)   DEFAULT '',
+    razon             VARCHAR(130) DEFAULT '',
+    nomb_terce        VARCHAR(130) DEFAULT '',
+    direccion         VARCHAR(90)  DEFAULT '',
+    coddpto           VARCHAR(3)   DEFAULT '',
+    codmunicipio      VARCHAR(5)   DEFAULT '',
+    unirmunicipio     VARCHAR(8)   DEFAULT '',
+    id                BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
+    excluir_compras   BOOLEAN DEFAULT FALSE
+);

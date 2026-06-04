@@ -1,0 +1,11 @@
+postgresql://neondb_owner:npg_BNHu1DpJ0oTr@ep-royal-forest-aq5fx58s.c-8.us-east-1.aws.neon.tech/neondb?sslmode=require
+
+
+postgresql://neondb_owner:npg_BNHu1DpJ0oTr@ep-royal-forest-aq5fx58s-pooler.c-8.us-east-1.aws.neon.tech/proveedorSql?sslmode=require&channel_binding=require
+
+user: neondb_owner
+passwornd: npg_BNHu1DpJ0oTr
+host: ep-royal-forest-aq5fx58s-pooler.c-8.us-east-1.aws.neon.tech
+puerto: 5432
+base de datos: proveedorSql
+sslmode: require&channel_binding=require
