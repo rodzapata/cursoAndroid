@@ -121,7 +121,33 @@ fun GetBox(){
             textAlign = TextAlign.Center,
 
         )
+        //boton en la parte superior izquierda
+        Button(
+            onClick = {},
+            modifier = Modifier
+                .align(Alignment.TopStart)
+        ) {
+            Text("superior izquierda")
+        }
 
+        //boton en la parte superior derecha
+        Button(
+            onClick = {},
+            modifier = Modifier
+                .align(Alignment.TopEnd)
+
+        ) {
+            Text(text = "superior Derecha")
+        }
+
+        //boton inferior izquierda
+        Button(
+            onClick = {},
+            modifier = Modifier
+                .align(Alignment.BottomStart)
+        ) {
+            Text("inferior izquirda")
+        }
     }
 }
 
