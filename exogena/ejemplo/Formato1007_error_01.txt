@@ -1,0 +1,265 @@
+Registro 3:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 29:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 443:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 450:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 527:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 551:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 558:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 707:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 715:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 716:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 752:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 775:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 828:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1041:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1205:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1548:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 1694:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1796:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1837:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 1889:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 1960:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 1986:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 1991:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2156:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2179:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2398:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2400:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2405:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2519:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2669:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2683:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2684:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2722:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2725:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2733:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2751:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2792:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2898:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 2979:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 3020:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 3118:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3122:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3532:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3747:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 3776:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4000:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4001:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4006:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4008:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4009:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4010:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4011:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4012:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4013:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4014:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4015:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4016:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4017:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4018:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4019:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4118:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 4119:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 4120:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4121:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4122:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4123:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4124:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4125:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4126:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4127:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4128:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4129:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4130:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4131:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4132:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4133:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4134:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4135:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4136:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4137:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4138:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4139:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4140:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4141:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4142:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4143:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4144:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4145:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4146:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4147:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4148:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4149:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4150:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4151:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4152:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4153:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4154:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4155:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4156:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4157:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4277:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4278:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4279:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!

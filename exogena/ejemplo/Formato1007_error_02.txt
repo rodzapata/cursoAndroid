@@ -1,0 +1,61 @@
+Registro 1:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 4:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 5:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 6:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 7:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 8:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 9:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 10:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 11:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 12:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 13:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 14:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 15:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 16:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 17:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 20:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 21:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 22:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 23:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 2734:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4005:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4010:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4012:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4013:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Registro 4014:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
