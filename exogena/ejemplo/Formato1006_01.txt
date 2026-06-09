@@ -1,0 +1,26 @@
+Registro 53:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 770:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 821:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 1801:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 1985:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 2039:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 3195:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 3516:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 3606:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 3705:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 4054:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 4082:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 4199:
+Número identificación - Error en el número de identificación digitado. El número del documento NO es válido.
