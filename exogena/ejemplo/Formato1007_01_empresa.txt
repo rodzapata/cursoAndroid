@@ -1,0 +1,1174 @@
+Registro 23:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 100:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 125:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 126:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 137:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 138:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 140:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 170:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 239:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 240:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 284:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 309:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 327:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 366:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 373:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 395:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 396:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 400:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 401:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 414:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 419:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 428:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 429:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 493:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 531:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 544:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 596:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 707:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 708:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 720:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 722:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 724:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 762:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 764:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 768:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 769:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 820:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 832:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 834:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 933:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 934:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 955:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1008:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1030:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1042:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1069:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1125:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1140:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1172:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1181:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1201:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1221:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1222:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1263:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1266:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1280:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1295:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1296:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1297:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1304:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada! - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1305:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada! - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1311:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1328:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1329:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1331:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1332:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1333:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1334:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1342:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1358:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1365:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1366:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1409:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1410:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1411:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1428:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1429:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1430:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1431:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1432:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1433:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1434:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1435:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1436:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1437:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1438:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1439:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1440:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1441:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1442:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1443:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1444:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1445:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1446:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 1458:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1467:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1489:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 1518:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1519:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1533:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1548:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1549:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1610:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1611:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1628:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1686:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1687:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1720:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 1796:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 1869:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2050:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2091:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2092:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2104:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2138:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2151:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2152:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2211:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2212:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2216:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2282:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2283:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2292:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2349:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2352:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2363:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 2454:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2457:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2458:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2462:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2465:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2521:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2523:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2546:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2547:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2561:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2562:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2571:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2604:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2605:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2606:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2607:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2608:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2626:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2651:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2652:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2653:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2654:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2655:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2656:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2657:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2658:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2659:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2660:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2661:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2662:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2663:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2664:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2670:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2671:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2672:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2673:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2674:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2677:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2691:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2712:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2713:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2716:
+Concepto - LLave duplicada 55 veces!
+Tipo de documento - LLave duplicada 55 veces!
+Número identificación  - LLave duplicada 55 veces!
+Registro 2722:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2762:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2763:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2769:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2782:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2783:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2800:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2838:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 2856:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2857:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 2985:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3084:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3085:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3113:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3114:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3128:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3174:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3181:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3182:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3187:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3188:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3195:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3197:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3201:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3202:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3213:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3215:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3295:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3315:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3317:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3318:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3341:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3356:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3438:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3439:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3456:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3457:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3459:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3460:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3480:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3482:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3488:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3529:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3535:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3542:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3543:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3544:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3545:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3555:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3576:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3577:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3608:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3633:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3634:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3704:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3750:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3751:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3756:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3766:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3767:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3769:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3780:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3840:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3847:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3848:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3870:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3871:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3898:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3913:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3938:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 3985:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3987:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3992:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3993:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 3998:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 3999:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 4017:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 4062:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 4087:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4092:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4093:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4105:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4159:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 4162:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 4163:
+Concepto - LLave duplicada 3 veces!
+Tipo de documento - LLave duplicada 3 veces!
+Número identificación  - LLave duplicada 3 veces!
+Registro 4286:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4288:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4391:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 4437:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Razón social informado - De acuerdo al numero del NIT, este campo es obligatorio
+Registro 4461:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Primer nombre del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Razón social informado - Para Tipo de Documento 11, 12, 13, 21, 22, 41, 47 y 48, esta casilla NO se debe diligenciar.
+Registro 4479:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 4486:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4487:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4504:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4505:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4509:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 4513:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 4517:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Primer nombre del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Razón social informado - Para Tipo de Documento 11, 12, 13, 21, 22, 41, 47 y 48, esta casilla NO se debe diligenciar.
+Registro 4518:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Primer nombre del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Razón social informado - Para Tipo de Documento 11, 12, 13, 21, 22, 41, 47 y 48, esta casilla NO se debe diligenciar.
+Registro 4531:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 4544:
+Primer apellido del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Primer nombre del informado - Este Campo es Obligatorio para el tipo de documento indicado.
+Razón social informado - Para Tipo de Documento 11, 12, 13, 21, 22, 41, 47 y 48, esta casilla NO se debe diligenciar.
+Registro 4615:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4616:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4626:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4627:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4632:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4633:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4651:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 4652:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
