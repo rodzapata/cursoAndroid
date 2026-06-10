@@ -1,0 +1,494 @@
+Registro 79:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 87:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 88:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 89:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 91:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 92:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 93:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 96:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 97:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 98:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 105:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 106:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 107:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 108:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 109:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 110:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 111:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 112:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 113:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 114:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 115:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 116:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 118:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 119:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 120:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 121:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 122:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 123:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 124:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 125:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 126:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 127:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 128:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 129:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 130:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 131:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 132:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 133:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 134:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 135:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 136:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 137:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 138:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 139:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 145:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 146:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 148:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 149:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 150:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 151:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 152:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 153:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 155:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 156:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 157:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 159:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 162:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 163:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 164:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 166:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 167:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 168:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 170:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 171:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 172:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 173:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 174:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 175:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 176:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 177:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 178:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 180:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 181:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 182:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 183:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 184:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 185:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 186:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 187:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 188:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 189:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 191:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 195:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 196:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 197:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 198:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 199:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 201:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 202:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 204:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 205:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 206:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 207:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 208:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 209:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 210:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 211:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 212:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Registro 213:
+Primer apellido del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Segundo apellido del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.
+Primer nombre del informado - Este Campo no debe ser diligenciado para su valor de Nit
+Otros nombres del informado - Este Campo NO debe ser diligenciado para el Número de Identificación digitado.

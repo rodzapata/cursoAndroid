@@ -1,0 +1,232 @@
+Registro 12:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 91:
+Número identificación  - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 136:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 157:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 184:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 185:
+Concepto - LLave duplicada!
+Tipo de documento - LLave duplicada!
+Número identificación  - LLave duplicada!
+Registro 218:
+Número identificación  - El Número de Identificación digitado No es válido.
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Registro 219:Por favor diligencie los datos del nuevo registro
+Registro 220:Por favor diligencie los datos del nuevo registro
+Registro 221:Por favor diligencie los datos del nuevo registro
+Registro 222:Por favor diligencie los datos del nuevo registro
+Registro 223:Por favor diligencie los datos del nuevo registro
+Registro 224:Por favor diligencie los datos del nuevo registro
+Registro 225:Por favor diligencie los datos del nuevo registro
+Registro 226:Por favor diligencie los datos del nuevo registro
+Registro 227:Por favor diligencie los datos del nuevo registro
+Registro 228:Por favor diligencie los datos del nuevo registro
+Registro 229:Por favor diligencie los datos del nuevo registro
+Registro 230:Por favor diligencie los datos del nuevo registro
+Registro 231:Por favor diligencie los datos del nuevo registro
+Registro 232:Por favor diligencie los datos del nuevo registro
+Registro 233:Por favor diligencie los datos del nuevo registro
+Registro 234:Por favor diligencie los datos del nuevo registro
+Registro 235:Por favor diligencie los datos del nuevo registro
+Registro 236:Por favor diligencie los datos del nuevo registro
+Registro 237:Por favor diligencie los datos del nuevo registro
+Registro 238:Por favor diligencie los datos del nuevo registro
+Registro 239:Por favor diligencie los datos del nuevo registro
+Registro 240:Por favor diligencie los datos del nuevo registro
+Registro 241:Por favor diligencie los datos del nuevo registro
+Registro 242:Por favor diligencie los datos del nuevo registro
+Registro 243:Por favor diligencie los datos del nuevo registro
+Registro 244:Por favor diligencie los datos del nuevo registro
+Registro 245:Por favor diligencie los datos del nuevo registro
+Registro 246:Por favor diligencie los datos del nuevo registro
+Registro 247:Por favor diligencie los datos del nuevo registro
+Registro 248:Por favor diligencie los datos del nuevo registro
+Registro 249:Por favor diligencie los datos del nuevo registro
+Registro 250:Por favor diligencie los datos del nuevo registro
+Registro 251:Por favor diligencie los datos del nuevo registro
+Registro 252:Por favor diligencie los datos del nuevo registro
+Registro 253:Por favor diligencie los datos del nuevo registro
+Registro 254:Por favor diligencie los datos del nuevo registro
+Registro 255:Por favor diligencie los datos del nuevo registro
+Registro 256:Por favor diligencie los datos del nuevo registro
+Registro 257:Por favor diligencie los datos del nuevo registro
+Registro 258:Por favor diligencie los datos del nuevo registro
+Registro 259:Por favor diligencie los datos del nuevo registro
+Registro 260:Por favor diligencie los datos del nuevo registro
+Registro 261:Por favor diligencie los datos del nuevo registro
+Registro 262:Por favor diligencie los datos del nuevo registro
+Registro 263:Por favor diligencie los datos del nuevo registro
+Registro 264:Por favor diligencie los datos del nuevo registro
+Registro 265:Por favor diligencie los datos del nuevo registro
+Registro 266:Por favor diligencie los datos del nuevo registro
+Registro 267:Por favor diligencie los datos del nuevo registro
+Registro 268:Por favor diligencie los datos del nuevo registro
+Registro 269:Por favor diligencie los datos del nuevo registro
+Registro 270:Por favor diligencie los datos del nuevo registro
+Registro 271:Por favor diligencie los datos del nuevo registro
+Registro 272:Por favor diligencie los datos del nuevo registro
+Registro 273:Por favor diligencie los datos del nuevo registro
+Registro 274:Por favor diligencie los datos del nuevo registro
+Registro 275:Por favor diligencie los datos del nuevo registro
+Registro 276:Por favor diligencie los datos del nuevo registro
+Registro 277:Por favor diligencie los datos del nuevo registro
+Registro 278:Por favor diligencie los datos del nuevo registro
+Registro 279:Por favor diligencie los datos del nuevo registro
+Registro 280:Por favor diligencie los datos del nuevo registro
+Registro 281:Por favor diligencie los datos del nuevo registro
+Registro 282:Por favor diligencie los datos del nuevo registro
+Registro 283:Por favor diligencie los datos del nuevo registro
+Registro 284:Por favor diligencie los datos del nuevo registro
+Registro 285:Por favor diligencie los datos del nuevo registro
+Registro 286:Por favor diligencie los datos del nuevo registro
+Registro 287:Por favor diligencie los datos del nuevo registro
+Registro 288:Por favor diligencie los datos del nuevo registro
+Registro 289:Por favor diligencie los datos del nuevo registro
+Registro 290:Por favor diligencie los datos del nuevo registro
+Registro 291:Por favor diligencie los datos del nuevo registro
+Registro 292:Por favor diligencie los datos del nuevo registro
+Registro 293:Por favor diligencie los datos del nuevo registro
+Registro 294:Por favor diligencie los datos del nuevo registro
+Registro 295:Por favor diligencie los datos del nuevo registro
+Registro 296:Por favor diligencie los datos del nuevo registro
+Registro 297:Por favor diligencie los datos del nuevo registro
+Registro 298:Por favor diligencie los datos del nuevo registro
+Registro 299:Por favor diligencie los datos del nuevo registro
+Registro 300:Por favor diligencie los datos del nuevo registro
+Registro 301:Por favor diligencie los datos del nuevo registro
+Registro 302:Por favor diligencie los datos del nuevo registro
+Registro 303:Por favor diligencie los datos del nuevo registro
+Registro 304:Por favor diligencie los datos del nuevo registro
+Registro 305:Por favor diligencie los datos del nuevo registro
+Registro 306:Por favor diligencie los datos del nuevo registro
+Registro 307:Por favor diligencie los datos del nuevo registro
+Registro 308:Por favor diligencie los datos del nuevo registro
+Registro 309:Por favor diligencie los datos del nuevo registro
+Registro 310:Por favor diligencie los datos del nuevo registro
+Registro 311:Por favor diligencie los datos del nuevo registro
+Registro 312:Por favor diligencie los datos del nuevo registro
+Registro 313:Por favor diligencie los datos del nuevo registro
+Registro 314:Por favor diligencie los datos del nuevo registro
+Registro 315:Por favor diligencie los datos del nuevo registro
+Registro 316:Por favor diligencie los datos del nuevo registro
+Registro 317:Por favor diligencie los datos del nuevo registro
+Registro 318:Por favor diligencie los datos del nuevo registro
+Registro 319:Por favor diligencie los datos del nuevo registro
+Registro 320:Por favor diligencie los datos del nuevo registro
+Registro 321:Por favor diligencie los datos del nuevo registro
+Registro 322:Por favor diligencie los datos del nuevo registro
+Registro 323:Por favor diligencie los datos del nuevo registro
+Registro 324:Por favor diligencie los datos del nuevo registro
+Registro 325:Por favor diligencie los datos del nuevo registro
+Registro 326:Por favor diligencie los datos del nuevo registro
+Registro 327:Por favor diligencie los datos del nuevo registro
+Registro 328:Por favor diligencie los datos del nuevo registro
+Registro 329:Por favor diligencie los datos del nuevo registro
+Registro 330:Por favor diligencie los datos del nuevo registro
+Registro 331:Por favor diligencie los datos del nuevo registro
+Registro 332:Por favor diligencie los datos del nuevo registro
+Registro 333:Por favor diligencie los datos del nuevo registro
+Registro 334:Por favor diligencie los datos del nuevo registro
+Registro 335:Por favor diligencie los datos del nuevo registro
+Registro 336:Por favor diligencie los datos del nuevo registro
+Registro 337:Por favor diligencie los datos del nuevo registro
+Registro 338:Por favor diligencie los datos del nuevo registro
+Registro 339:Por favor diligencie los datos del nuevo registro
+Registro 340:Por favor diligencie los datos del nuevo registro
+Registro 341:Por favor diligencie los datos del nuevo registro
+Registro 342:Por favor diligencie los datos del nuevo registro
+Registro 343:Por favor diligencie los datos del nuevo registro
+Registro 344:Por favor diligencie los datos del nuevo registro
+Registro 345:Por favor diligencie los datos del nuevo registro
+Registro 346:Por favor diligencie los datos del nuevo registro
+Registro 347:Por favor diligencie los datos del nuevo registro
+Registro 348:Por favor diligencie los datos del nuevo registro
+Registro 349:Por favor diligencie los datos del nuevo registro
+Registro 350:Por favor diligencie los datos del nuevo registro
+Registro 351:Por favor diligencie los datos del nuevo registro
+Registro 352:Por favor diligencie los datos del nuevo registro
+Registro 353:Por favor diligencie los datos del nuevo registro
+Registro 354:Por favor diligencie los datos del nuevo registro
+Registro 355:Por favor diligencie los datos del nuevo registro
+Registro 356:Por favor diligencie los datos del nuevo registro
+Registro 357:Por favor diligencie los datos del nuevo registro
+Registro 358:Por favor diligencie los datos del nuevo registro
+Registro 359:Por favor diligencie los datos del nuevo registro
+Registro 360:Por favor diligencie los datos del nuevo registro
+Registro 361:Por favor diligencie los datos del nuevo registro
+Registro 362:Por favor diligencie los datos del nuevo registro
+Registro 363:Por favor diligencie los datos del nuevo registro
+Registro 364:Por favor diligencie los datos del nuevo registro
+Registro 365:Por favor diligencie los datos del nuevo registro
+Registro 366:Por favor diligencie los datos del nuevo registro
+Registro 367:Por favor diligencie los datos del nuevo registro
+Registro 368:Por favor diligencie los datos del nuevo registro
+Registro 369:Por favor diligencie los datos del nuevo registro
+Registro 370:Por favor diligencie los datos del nuevo registro
+Registro 371:Por favor diligencie los datos del nuevo registro
+Registro 372:Por favor diligencie los datos del nuevo registro
+Registro 373:Por favor diligencie los datos del nuevo registro
+Registro 374:Por favor diligencie los datos del nuevo registro
+Registro 375:Por favor diligencie los datos del nuevo registro
+Registro 376:Por favor diligencie los datos del nuevo registro
+Registro 377:Por favor diligencie los datos del nuevo registro
+Registro 378:Por favor diligencie los datos del nuevo registro
+Registro 379:Por favor diligencie los datos del nuevo registro
+Registro 380:Por favor diligencie los datos del nuevo registro
+Registro 381:Por favor diligencie los datos del nuevo registro
+Registro 382:Por favor diligencie los datos del nuevo registro
+Registro 383:Por favor diligencie los datos del nuevo registro
+Registro 384:Por favor diligencie los datos del nuevo registro
+Registro 385:Por favor diligencie los datos del nuevo registro
+Registro 386:Por favor diligencie los datos del nuevo registro
+Registro 387:Por favor diligencie los datos del nuevo registro
+Registro 388:Por favor diligencie los datos del nuevo registro
+Registro 389:Por favor diligencie los datos del nuevo registro
+Registro 390:Por favor diligencie los datos del nuevo registro
+Registro 391:Por favor diligencie los datos del nuevo registro
+Registro 392:Por favor diligencie los datos del nuevo registro
+Registro 393:Por favor diligencie los datos del nuevo registro
+Registro 394:Por favor diligencie los datos del nuevo registro
+Registro 395:Por favor diligencie los datos del nuevo registro
+Registro 396:Por favor diligencie los datos del nuevo registro
+Registro 397:Por favor diligencie los datos del nuevo registro
+Registro 398:Por favor diligencie los datos del nuevo registro
+Registro 399:Por favor diligencie los datos del nuevo registro
+Registro 400:Por favor diligencie los datos del nuevo registro
+Registro 401:Por favor diligencie los datos del nuevo registro
+Registro 402:Por favor diligencie los datos del nuevo registro
+Registro 403:Por favor diligencie los datos del nuevo registro
+Registro 404:Por favor diligencie los datos del nuevo registro
+Registro 405:Por favor diligencie los datos del nuevo registro
+Registro 406:Por favor diligencie los datos del nuevo registro
+Registro 407:Por favor diligencie los datos del nuevo registro
+Registro 408:Por favor diligencie los datos del nuevo registro
+Registro 409:Por favor diligencie los datos del nuevo registro
+Registro 410:Por favor diligencie los datos del nuevo registro
+Registro 411:Por favor diligencie los datos del nuevo registro
+Registro 412:Por favor diligencie los datos del nuevo registro
+Registro 413:Por favor diligencie los datos del nuevo registro
+Registro 414:Por favor diligencie los datos del nuevo registro
+Registro 415:Por favor diligencie los datos del nuevo registro
+Registro 416:Por favor diligencie los datos del nuevo registro
+Registro 417:Por favor diligencie los datos del nuevo registro
+Registro 418:
+Concepto - Este campo es obligatorio - LLave duplicada 200 veces!
+Tipo de documento - Este campo es obligatorio - LLave duplicada 200 veces!
+Número identificación  - Este campo es obligatorio - LLave duplicada 200 veces!
+País de Residencia o domicilio - Este campo es obligatorio
+Ingresos brutos recibidos - Este campo es obligatorio
+Devoluciones,  rebajas y descuentos - Este campo es obligatorio
