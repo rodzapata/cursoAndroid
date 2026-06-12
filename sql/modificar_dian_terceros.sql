@@ -25,6 +25,12 @@ SELECT  RTRIM(LTRIM(a.nit)), RTRIM(LTRIM(a.nit)) as nit_dian, a.apellido1, a.ape
 		WHERE LTRIM(RTRIM(d.nit)) = LTRIM(RTRIM(a.nit))
 	)
 
+---F1001
+select '5007' as concepto, rtrim(ltrim(nit)) as nit_bus, tipo_doc, rtrim(ltrim(nit)) as nit,apellido1, apellido2, nombre1, nombre2,
+	razon,  direccion, codDpto, codMunicipio, id  
+	from dian_terceros 
+	order by tipo_doc, apellido1
+
 select nit, apellido1, apellido2, nombre1, nombre2, tipo_doc, razon,    direccion, codDpto, codMunicipio  from dian_terceros2
 
 select nit, tipo_doc, razon,  apellido1, apellido2, nombre1, nombre2,  direccion, codDpto, codMunicipio  from dian_terceros2
@@ -62,7 +68,7 @@ where tipo_doc='13'
 
 select * from dian_subir where nit_emisor='1104422228'
 select * from dian_municipios where codDpto='11'
-select * from dian_municipios where nombreciudad like 'cordo%'
+select * from dian_municipios where nombreciudad like 'yumb%'
 select * from dian_dpto
 
 select nit_dian, tipo_doc, apellido1,apellido2,nombre1,nombre2,razon, direccion,codDpto,codMunicipio from  dian_terceros  where nit_dian='900713172'

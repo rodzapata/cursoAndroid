@@ -1,0 +1,34 @@
+Registro 93:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 168:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 172:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 205:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 223:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 267:
+Primer apellido del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Primer nombre del informado - Este Campo es Obligatorio para su número de Identificación indicado
+Razón social informado - De acuerdo al numero del NIT, no se debe diligenciar este campo
+Registro 280:
+IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas - Los campos "Impuesto generado", "Impuesto nacional al consumo" y el campo "IVA recuperado en devoluciones en compras anuladas. rescindidas o resueltas", no pueden ir en cero (0) al mismo tiempo.
+Registro 568:
+Número identificación - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 619:
+Número identificación - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 660:
+Número identificación - Error en el número de identificación digitado. El número del documento ingresado NO es válido.
+Registro 738:
+Primer nombre del informado - Este Campo es Obligatorio para el tipo de documento indicado.
