@@ -11,4 +11,26 @@ https://empresas.larepublica.co/
 https://www.informacolombia.com/directorio-empresas/
 
 
-32652840
+radiologo asociado
+rayos 
+
+
+=SI(S18>=11;"Apta para trabajar";SI(CONTAR.SI(B6;"*Manometro*")+CONTAR.SI(B6;"*Pinza*")+CONTAR.SI(B6;"*Termometro de bolsillo*")>0;"Verificar";"Calibrar"))
+
+
+=SI([@[dias_vencimiento]]>11;""Apta para trabajar"";
+SI(CONTAR.SI([@[tipo_equipo]];"*Manometro*")
++CONTAR.SI([@[tipo_equipo]];"*Pinza*")
++CONTAR.SI([@[tipo_equipo]];"*Termometro de bolsillo*")>0;
+"Verificar";
+"Calibrar"
+))
+
+
+
+=SI(CONTAR.SI([@[tipo_equipo]];"*Manometro*")
++CONTAR.SI([@[tipo_equipo]];"*Pinza*")
++CONTAR.SI([@[tipo_equipo]];"*Termometro de bolsillo*")>0;
+"Por Patron";
+"Externo"
+)
