@@ -1,9 +1,9 @@
 --pagina para consultar empresa
 --https://www.datacreditoempresas.com.co/directorio/comercializadora-condimentos-cotty-limitada.html
 
---select nit, count(nit) as cant from dian_terceros group by nit having count(nit)>1
+---select nit, count(nit) as cant from dian_terceros group by nit having count(nit)>1
 
-select * from dian_terceros where nit='1020485835'
+select * from dian_terceros where nit='7597591'
 select * from dian_terceros where nit='901927181'
 
 update dian_terceros set nombre2='' where nombre2 is null
@@ -25,11 +25,7 @@ SELECT  RTRIM(LTRIM(a.nit)), RTRIM(LTRIM(a.nit)) as nit_dian, a.apellido1, a.ape
 		WHERE LTRIM(RTRIM(d.nit)) = LTRIM(RTRIM(a.nit))
 	)
 
----F1001
-select '5007' as concepto, rtrim(ltrim(nit)) as nit_bus, tipo_doc, rtrim(ltrim(nit)) as nit,apellido1, apellido2, nombre1, nombre2,
-	razon,  direccion, codDpto, codMunicipio, id  
-	from dian_terceros 
-	order by tipo_doc, apellido1
+
 
 select nit, apellido1, apellido2, nombre1, nombre2, tipo_doc, razon,    direccion, codDpto, codMunicipio  from dian_terceros2
 
@@ -39,16 +35,27 @@ select nit, tipo_doc, razon,  apellido1, apellido2, nombre1, nombre2,  direccion
 
 select nit, tipo_doc, razon,  direccion, codDpto, codMunicipio  from dian_terceros2
 
+select nit, razon  from dian_terceros2
+
 select nit, direccion, codDpto, codMunicipio, tipo_doc, razon,  apellido1, apellido2, nombre1, nombre2    from dian_terceros2
 
-select * from dian_terceros2
+select * from dian_terceros where apellido1 is null
+update dian_terceros set apellido1='' where apellido1 is null
+update dian_terceros set apellido2='' where apellido2 is null
+update dian_terceros set nombre1='' where nombre1 is null
+update dian_terceros set nombre2='' where nombre2 is null
+
+
 select rtrim(ltrim(nit)) as nit, direccion, codDpto, codMunicipio, tipo_doc, razon, apellido1, apellido2, nombre1, nombre2,  from dian_terceros2
 where len(direccion)=0
 
 delete from dian_terceros2
 
+update dian_terceros set apellido1='' where apellido1 is null
 
-select * from dian_terceros2 a left join dian_terceros2 b on a.nit=b.nit
+
+select a.nit, a.razon, b.nit from dian_terceros2 a left join dian_terceros b on a.nit=b.nit
+where b.nit is null
 
 update dian_terceros set nit=rtrim(ltrim(nit))
 update dian_terceros set nit_dian=rtrim(ltrim(nit_dian))
@@ -60,15 +67,20 @@ update dian_terceros set razon=rtrim(ltrim(razon))
 update dian_terceros set direccion=rtrim(ltrim(direccion))
 
 update dian_terceros set nomb_terce=rtrim(ltrim(razon))
-where tipo_doc in ('31','43')
+where tipo_doc in ('31','43') AND tipo_doc_excepcion=0
 
-update dian_terceros set nomb_terce=rtrim(ltrim(nombre1))+' '+rtrim(ltrim(nombre2))+' '+
-rtrim(ltrim(apellido1))+ ' '+rtrim(ltrim(apellido2))
-where tipo_doc='13'
+update dian_terceros set nomb_terce=rtrim(ltrim(apellido1))+ ' '+rtrim(ltrim(apellido2))+' '+rtrim(ltrim(nombre1))+' '+rtrim(ltrim(nombre2))
+where tipo_doc='13' AND tipo_doc_excepcion=0
 
 select * from dian_subir where nit_emisor='1104422228'
-select * from dian_municipios where codDpto='11'
-select * from dian_municipios where nombreciudad like 'yumb%'
+
+update dian_terceros set direccion='Calle 50 # 59-02', codmunicipio='212' where nit='900310074'
+select * from dian_terceros where nit='900310074'
+
+select * from dian_municipios where nombreciudad like 'copa%'
+select * from dian_dpto
+
+update dian_municipios set nombreciudad='santuario' where id=84
 select * from dian_dpto
 
 select nit_dian, tipo_doc, apellido1,apellido2,nombre1,nombre2,razon, direccion,codDpto,codMunicipio from  dian_terceros  where nit_dian='900713172'
