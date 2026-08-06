@@ -19,3 +19,4 @@ antes ip: 192.168.60.96
 
 puerto: 61061
 
+database: tribusoft_db
