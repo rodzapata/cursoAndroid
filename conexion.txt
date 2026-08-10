@@ -20,3 +20,22 @@ antes ip: 192.168.60.96
 puerto: 61061
 
 database: tribusoft_db
+
+---------------- supabase -------------
+cuenta: rodneyzapatapalacio@gmail.com's Org
+
+rodneyzapatapalacio@gmail.com's Project
+
+host: db.mromoqcxpioawdmfhwkw.supabase.co
+
+postgresql://postgres:[YOUR-PASSWORD]@db.mromoqcxpioawdmfhwkw.supabase.co:5432/postgres
+
+host=db.mromoqcxpioawdmfhwkw.supabase.co
+port=5432
+database=postgres
+user=postgres
+
+https://mromoqcxpioawdmfhwkw.supabase.co
+
+
+sb_publishable_YfqRt4XYZlbhRWSLp3V-tg_bR_YUfS8
